@@ -5,7 +5,7 @@
 
 <!-- 动态打字机 -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=FF79C6&center=true&vCenter=true&width=780&lines=%E6%B2%B3%E5%8D%97%E5%A4%A7%E5%AD%A6+%C2%B7+%E8%BD%AF%E4%BB%B6%E5%AD%A6%E9%99%A2+%C2%B7+%E5%AD%A6%E7%94%9F%E5%BC%80%E5%8F%91%E8%80%85;%F0%9F%9A%80+%E5%B8%B8%E9%A9%BB+Antigravity+(%E5%8F%8D%E9%87%8D%E5%8A%9B)+%26+Codex+%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91%E4%B8%AD%E6%9E%A2;%E2%9C%A8+%E6%B6%89%E7%8Open+MCP+%E5%8D%8F%E8%AE%AE+%C2%B7+%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%8D%8F%E5%90%8C+%C2%B7+%E6%80%9D%E7%BB%B4%E9%93%BE%E6%8E%A8%E7%90%86+(CoT);%F0%9F%8E%AE+Live2D+%E6%A1%8C%E9%9D%A2%E4%BC%B4%E4%BE%A3+%C2%B7+Three.js+3D%E6%B8%B2%E6%9F%93+%C2%B7+%E5%89%8D%E6%B2%BF+AIGC+%E5%A4%9A%E5%AA%92%E4%BD%93%E5%88%9B%E4%BD%9C;%F0%9F%8C%B8+%E3%80%8C%E4%BF%9D%E6%8C%81%E5%A5%BD%E5%A5%87%EF%BC%8C%E6%8C%81%E7%BB%AD%E5%8A%A8%E6%89%8B%EF%BC%8C%E5%9C%A8%E7%83%AD%E7%88%B1%E4%B8%AD%E6%9E%84%E5%BB%BA%E7%BB%86%E8%8A%82%E3%80%8D" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=FF79C6&center=true&vCenter=true&width=780&lines=%E6%B2%B3%E5%8D%97%E5%A4%A7%E5%AD%A6+%C2%B7+%E8%BD%AF%E4%BB%B6%E5%AD%A6%E9%99%A2+%C2%B7+%E5%AD%A6%E7%94%9F%E5%BC%80%E5%8F%91%E8%80%85;%F0%9F%9A%80+%E5%B8%B8%E9%A9%BB+Antigravity+(%E5%8F%8D%E9%87%8D%E5%8A%9B)+%26+Codex+%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91%E4%B8%AD%E6%9E%A2;%E2%9C%A8+%E6%B6%89%E7%8Open+MCP+%E5%8D%8F%E8%AE%AE+%C2%B7+%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%8D%8F%E5%90%8C+%C2%B7+%E6%A0%A1%E5%9B%AD%E5%BC%80%E6%BA%90%E7%9F%A5%E8%AF%86%E5%BA%93;%F0%9F%8E%AE+Live2D+%E6%A1%8C%E9%9D%A2%E4%BC%B4%E4%BE%A3+%C2%B7+Three.js+3D%E6%B8%B2%E6%9F%93+%C2%B7+%E5%89%8D%E6%B2%BF+AIGC+%E5%A4%9A%E5%AA%92%E4%BD%93%E5%88%9B%E4%BD%9C;%F0%9F%8C%B8+%E3%80%8C%E4%BF%9D%E6%8C%81%E5%A5%BD%E5%A5%87%EF%BC%8C%E6%8C%81%E7%BB%AD%E5%8A%A8%E6%89%8B%EF%BC%8C%E5%9C%A8%E7%83%AD%E7%88%B1%E4%B8%AD%E6%9E%84%E5%BB%BA%E7%BB%86%E8%8A%82%E3%80%8D" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -47,7 +47,7 @@
 
 ---
 
-### 🎮 项目实践 (Projects)
+### 🎮 项目实践与开源积累 (Projects & Practices)
 
 * 🤖 [**AI 二次元桌宠 (Anime Desktop Pet)**](https://github.com/SherlockYzz/anime-desktop-pet) ⭐ 9  
   探索将前沿大语言模型与 Live2D 结合的桌面伴侣应用，支持多角色 Live2D 动作渲染、原声声库与大模型自主对话，提供 Windows 向导安装包。  
@@ -61,8 +61,20 @@
   团队项目，运用 Three.js / WebGL 搭建可 360° 交互审视的宋代官瓷 3D 展馆，结合 AI 识瓷与水墨工艺长卷展示。  
   [🌐 在线 3D 展馆](https://sherlockyzz.github.io/Memories-of-Chinese-Porcelain-Web/) ｜ [📥 查看 Release 离线包](https://github.com/SherlockYzz/Memories-of-Chinese-Porcelain-Web/releases)
 
+* 🏯 **开封府智慧景区微信小程序** [团队项目 · 私有维护 🔒]  
+  开封府官方智慧景区数字化服务系统。深度参与小程序端核心功能研发：
+  - **智慧地图与路径规划**：基于高精度手绘景区地图，设计景点/服务设施分类标注体系，实现用户 GPS 定位与本地最短游览路线规划算法；
+  - **演出时刻与状态同步**：实现全天演出节目时间轴流转，支持下一场演出开演倒计时动态提醒；
+  - **AI 智能伴游与互动断案**：对接 Dify 智能体工作流提供全天候景点典故咨询；参与互动式剧情推理「开封府断案」模块开发（卷宗查阅、线索推理与结案评级）。
+
+* 📚 [**校园开源学习资料知识库 (HENU Review Kit)**](https://github.com/SherlockYzz/HENU-Final-Review)  
+  发起并维护面向全校同学的开源复习体系与课程学习知识库，汇聚大量高质量学习资料与备考梳理：
+  - **计算机核心课程**：系统整理编写了 C/C++ 程序设计、Web 编程基础、Python、数据结构、计算机网络等核心课程的知识点梳理与实践代码集；
+  - **数理与专业基础**：整理归纳高等数学、线性代数、离散数学等经典解题思路与高频考点总结；
+  - **开放共享与持续维护**：按学期与学科模块化归档，为多届同学日常预习、期末复习提供便捷的开源参考与检索支持。
+
 * 📐 [**常微分方程（ODE）知识梳理与题型总结**](https://github.com/SherlockYzz/Self-summary-of-Differential-Equations)  
-  整理的高等数学与考研常微分方程方法笔记，附带离线 MathJax 排版版。  
+  系统化梳理的高等数学与考研常微分方程方法笔记，附带离线 MathJax 高清公式排版版。  
   [📥 查看 Release 排版版](https://github.com/SherlockYzz/Self-summary-of-Differential-Equations/releases)
 
 ---
@@ -73,7 +85,7 @@
 | :--- | :--- |
 | **🤖 前沿 AI 与 Agent 体系** | Google Antigravity (反重力) · OpenAI Codex · Claude Code · MCP (Model Context Protocol) · Multi-Agent 协作编排 · 思维链 (CoT) 推理 |
 | **💻 编程语言** | C · C++ (C++17) · JavaScript (ES6+) · TypeScript · Python · HTML5 / CSS3 |
-| **🎨 前端与图形渲染** | Three.js (WebGL) · Live2D Cubism SDK · Electron · Vue · HTML5 Canvas |
+| **🎨 前端与图形渲染** | Three.js (WebGL) · Live2D Cubism SDK · Electron · Vue · uni-app 微信小程序 · HTML5 Canvas |
 | **🎬 视觉设计与 AIGC 工作流** | Adobe Premiere Pro · After Effects · 可灵 (Kling) / Seedance AI 视频生成 · ComfyUI |
 | **⚙️ 工程化与底层协作** | Git / GitHub · CMake · Node.js · SQLite · Ollama 本地大模型 |
 
