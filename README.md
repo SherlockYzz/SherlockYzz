@@ -1,6 +1,6 @@
-<!-- 顶部动态渐变艺术横幅 -->
+﻿<!-- 顶部动态渐变艺术横幅 -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,14,10,32&height=200&section=header&text=SherlockYzz%20%E2%9C%A8%20Anime%20%C3%97%20Interactive%20Craftsman&fontSize=34&fontColor=ffffff&fontAlignY=38&animation=twinkling" alt="Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,14,10,32&height=220&section=header&text=SherlockYzz%20%E2%9C%A8%20%E4%BA%8C%E6%AC%A1%E5%85%83%E9%80%A0%E6%A2%A6%E5%AE%B6&fontSize=38&fontColor=ffffff&fontAlignY=38&animation=twinkling" alt="Anime Header" width="100%" />
 </p>
 
 <!-- 动态二次元霓虹打字机 -->
@@ -9,73 +9,107 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Anime_Aesthetics-Live2D%20%26%20Pixel_Art-FF69B4?style=flat-square&logo=crunchyroll&logoColor=white" alt="Anime Aesthetics" />
-  <img src="https://img.shields.io/badge/Engineering-Desktop%20%26%20WebGL-00FFFF?style=flat-square" alt="Engineering" />
-  <img src="https://img.shields.io/badge/Campus-河南大学%20Henan%20University-002147?style=flat-square" alt="University" />
+  <img src="https://img.shields.io/badge/Anime_Aesthetics-Live2D%20%26%20Pixel_Art-FF69B4?style=for-the-badge&logo=crunchyroll&logoColor=white" alt="Anime Aesthetics" />
+  <img src="https://img.shields.io/badge/Focus-Desktop%20%26%20WebGL%20%26%20AI-00FFFF?style=for-the-badge" alt="Focus" />
+  <img src="https://img.shields.io/badge/Campus-河南大学%20Henan%20University-002147?style=for-the-badge" alt="University" />
+  <img src="https://img.shields.io/badge/Status-Actively_Creating-success?style=for-the-badge" alt="Status" />
 </p>
 
 ---
 
-### 🌸 关于我与设计理念
+## 🌸 一、关于我与次元造梦理念 (About Me)
 
 <table>
   <tr>
-    <td width="60%" valign="top">
-      <p>你好！我是 <b>SherlockYzz（于子倬）</b>，来自河南大学。</p>
-      <p>我热衷于<b>二次元文化与现代人机交互美学</b>。相比枯燥的代码堆砌，我更喜欢将对动漫、游戏化交互和传统文化的审美热爱，转化为有灵魂、可触摸的交互工程作品：</p>
+    <td width="65%" valign="top">
+      <p>👋 你好！我是 <b>SherlockYzz（于子倬）</b>，现就读于<b>河南大学</b>。</p>
+      <p>作为一名热衷于<b>二次元文化与人机交互美学</b>的开发者，比起枯燥单调的业务堆叠，我更痴迷于<b>用代码赋予数字形象温度与灵魂</b>：</p>
       <ul>
-        <li>🎀 <b>Live2D 虚拟伴侣调校</b>：专注于多角色模型渲染管线、原声声库解耦与桌面级轻量化常驻交互。</li>
-        <li>🏮 <b>东方像素艺术与数字化体验</b>：探索 C++ 纯原生字符超分渲染、HTML5 节庆声画粒子互动与宋代官瓷 3D 展馆。</li>
-        <li>💻 <b>全栈与客户端工程</b>：坚持极致的零多余依赖、丝滑动画帧率与开箱即用的交付体验。</li>
+        <li>🎀 <b>Live2D 虚拟伴侣工程</b>：钻研轻量级常驻桌面渲染管线、多模型动作解耦与自然拟人声画同步。让可爱的动漫角色不再只是静止的立绘，而是在桌面上陪伴学习与工作的伙伴。</li>
+        <li>🏮 <b>东方像素艺术与岁时美学</b>：将古典风雅与现代游戏化交互结合，自研 C++ 控制台字符超分引擎与 HTML5 Canvas 全景节庆声光系统。</li>
+        <li>🏺 <b>数字化非遗与三维呈现</b>：运用 Three.js、WebGL 与 AI 图像理解，将千年宋瓷工艺与现代交互结合。</li>
+        <li>💻 <b>全栈与客户端工程落地</b>：崇尚极致的零冗余依赖、高帧率丝滑体验与开箱即用的分发体验。</li>
       </ul>
     </td>
-    <td width="40%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Pat.gif" width="240" alt="Anime Coding" style="border-radius: 12px;" />
+    <td width="35%" align="center" valign="middle">
+      <img src="./assets/character_walk.gif" width="220" alt="二次元桌面漫步伴侣" style="border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);" />
+      <br>
+      <sub><i>✨ 灵动伴侣 · 桌面自由漫步动效</i></sub>
     </td>
   </tr>
 </table>
 
 ---
 
-### 🎮 核心工程代表作 (Featured Works)
+## 🎮 二、核心工程代表作矩阵 (Featured Projects)
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>🤖 <a href="https://github.com/SherlockYzz/anime-desktop-pet">AI 二次元桌宠</a></h3>
-      <p><b>Live2D 桌面伴侣引擎</b></p>
-      <p>实装九大热门动漫角色，集成纯正 Live2D 动作渲染、原声广播级母带声库与多大模型无缝对话，支持轻量级向导安装。</p>
-      <p><a href="https://github.com/SherlockYzz/anime-desktop-pet/releases">📥 下载 v07.21 安装向导 (.exe)</a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🏮 <a href="https://github.com/SherlockYzz/mid-autumn-celebration">华夏岁时盛典</a></h3>
-      <p><b>东方像素艺术 × 节日庆典</b></p>
-      <p>涵盖中秋、国庆、除夕、上元四大传统节日，融合东方像素美学、物理粒子烟花、古筝五声音阶合成与民俗猜灯谜。</p>
-      <p><a href="https://sherlockyzz.github.io/mid-autumn-celebration/">🌐 在线免安装游园体验</a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🏺 <a href="https://github.com/SherlockYzz/Memories-of-Chinese-Porcelain-Web">慧眼识瓷 3D 展馆</a></h3>
-      <p><b>宋韵美学 × Three.js</b></p>
-      <p>河南大学仝瓷记忆团队打造：以水墨宋韵为基底，360° 交互还原宋代官瓷器型质感，结合 AI 智能器型识别。</p>
-      <p><a href="https://sherlockyzz.github.io/Memories-of-Chinese-Porcelain-Web/">🌐 在线 3D 展馆直达</a></p>
-    </td>
-  </tr>
-</table>
+### 🥇 【二次元交互门面】[🤖 AI 二次元桌宠 (Anime Desktop Pet)](https://github.com/SherlockYzz/anime-desktop-pet) ⭐ 9
+> **多角色 Live2D 桌面伴侣引擎 · 原声母带与多大模型无缝联动**
+
+- **二次元交互灵魂**：实装九大人气角色全阵容，基于原生 WebGL 多画布隔离渲染纯正 Live2D，内置原版声优广播级母带，搭载专属羁绊手账与隐藏彩蛋。
+- **开箱即用交付**：制作了一键式 Windows 中文向导安装包（NSIS），支持自由选盘与无缝桌面快捷方式。
+- 📦 **发行版直达**：[**📥 下载 v07.21 最终版安装向导 (AI-DesktopPet-v07.21-Setup.exe)**](https://github.com/SherlockYzz/anime-desktop-pet/releases)
 
 ---
 
-### ⚡ 动态数据与足迹 (Activity & Stats)
+### 🥈 【东方像素美学】[🏮 华夏岁时盛典 (Mid-Autumn & Festival Suite)](https://github.com/SherlockYzz/mid-autumn-celebration) ⭐ 1
+> **东方像素艺术 × 沉浸式节日交互庆典系统（双引擎驱动）**
+
+- **沉浸游园体验**：无缝热切换四大节令全景（中秋追月、盛世国庆、新春除夕、上元灯会），集成满月金桂、玉兔捣药、灵签求卜、博古猜灯谜与全景热度盛典。
+- **C++17 字符超分黑客风 ＋ Web 免安装双引擎**：纯原生控制台纵向半块像素超分渲染，纯代码 Web Audio 合成五声音阶古筝金石编钟与爆竹重低音。
+- 🌐 **在线秒开游园**：[**👉 浏览器直接进入庆典游园**](https://sherlockyzz.github.io/mid-autumn-celebration/) ｜ [**📥 下载 v2.0.0 全套运行包**](https://github.com/SherlockYzz/mid-autumn-celebration/releases)
+
+---
+
+### 🥉 【宋韵水墨三维】[🏺 慧眼识瓷 — 宋代官瓷 3D 数字化体验平台](https://github.com/SherlockYzz/Memories-of-Chinese-Porcelain-Web) ⭐ 6
+> **河南大学仝瓷记忆团队打造 · Three.js 官瓷数字化展馆 × AI 智能识瓷**
+
+- **宋代风雅数字化**：以宋韵水墨画卷为底，WebGL 多光源 PBR 渲染 360° 可交互官瓷器型，逼真还原紫口铁足与冰裂蟹爪开片。
+- 🌐 **在线 3D 展馆**：[**👉 浏览器直达 3D 数字化展馆**](https://sherlockyzz.github.io/Memories-of-Chinese-Porcelain-Web/) ｜ [**📥 下载 v1.0.0 离线运行包**](https://github.com/SherlockYzz/Memories-of-Chinese-Porcelain-Web/releases)
+
+---
+
+### 🏯 【智慧景区实践】[🏯 开封府微信小程序](https://github.com/SherlockYzz/kaifengfu-miniprogram) 🔒
+> **智慧景区全景导览、演出实时倒计时、Dify AI 伴游与沉浸式「开封府断案」推理**
+
+- **全流程数字化导览**：手绘景区地图、分类标记点、GPS 定位与本地最短路径规划算法，全天经典演出时间轴与下一场开演实时倒计时。
+- **沉浸式互动剧情**：原创互动式断案推演系统（案件卷宗、线索搜证、案情推理与结案评级）。
+- 📦 **发行版包**：[**📥 查看 v1.0.0 正式源码工程包**](https://github.com/SherlockYzz/kaifengfu-miniprogram/releases)
+
+---
+
+### 📐 【理论体系梳理】[📐 常微分方程（ODE）知识体系与题型全景自总结](https://github.com/SherlockYzz/Self-summary-of-Differential-Equations) ⭐ 1
+> **考研与大学高等数学核心理论、标准分类与经典解法全景自总结笔记**
+
+- 📦 **精排版下载**：[**📥 下载 v3.0.0 离线高清排版网页版 (HTML+MathJax)**](https://github.com/SherlockYzz/Self-summary-of-Differential-Equations/releases)
+
+---
+
+## 🛠️ 三、跨次元工程工具箱 (Craftsmanship & Toolkit)
+
+| 领域方向 | 核心技术与开发环境 |
+| :--- | :--- |
+| **🎨 交互视觉与二次元渲染** | Live2D Cubism SDK · Electron · Three.js / WebGL · HTML5 Canvas · Pixel Art |
+| **💻 核心编程语言** | C / C++ (C++17) · JavaScript (ES6+) / Node.js · Python · HTML5 / CSS3 |
+| **🤖 智能化应用与框架** | LLM Agent (ReAct / Function Calling) · Dify Agent Workflow · Web Audio API |
+| **⚙️ 工程化与协作** | Git / GitHub Actions · CMake / Make · SQLite · WeChat DevTools |
+
+---
+
+## 📊 四、动态足迹与开发者数据 (Activity & Stats)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SherlockYzz&show_icons=true&theme=tokyonight&hide_border=true&title_color=f7768e&text_color=7aa2f7&icon_color=bb9af7" height="160" alt="Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SherlockYzz&layout=compact&theme=tokyonight&hide_border=true&title_color=f7768e&text_color=7aa2f7" height="160" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SherlockYzz&show_icons=true&theme=tokyonight&hide_border=true&title_color=f7768e&text_color=7aa2f7&icon_color=bb9af7" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SherlockYzz&layout=compact&theme=tokyonight&hide_border=true&title_color=f7768e&text_color=7aa2f7" height="165" alt="Top Langs" />
 </p>
 
 ---
 
+<!-- 底部动态波浪与寄语 -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=32,10,14,24&height=90&section=footer" width="100%" alt="Footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=32,10,14,24&height=100&section=footer" width="100%" alt="Footer" />
 </p>
+
 <p align="center">
-  <i>🌸「愿我们在热爱的世界里，都能用代码构筑出令人心动的风景。」</i>
+  <i>🌸「愿所有对美好的热爱与执念，都能在代码与像素的世界里绽放成生动的奇迹。」🌸</i>
 </p>
