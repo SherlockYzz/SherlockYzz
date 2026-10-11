@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1540" viewBox="0 0 840 1540" role="img" aria-label="SherlockYzz Brilliant Anime Profile">
-  <title>SherlockYzz (于子倬) — Anime &amp; AI Tech Explorer</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1540" viewBox="0 0 840 1540" role="img" aria-label="SherlockYzz Personal Profile">
+  <title>于子倬 (SherlockYzz) — 河南大学 · 喜欢二次元与代码的学生</title>
   
   <defs>
     <!-- Deep Space & Radiant Nebula Canvas Gradient -->
@@ -159,11 +159,6 @@
       50% { opacity: 1; transform: scale(1.25) rotate(45deg); }
     }
 
-    @keyframes shimmer-sweep {
-      0% { transform: translateX(-300px); }
-      100% { transform: translateX(850px); }
-    }
-
     @keyframes sakura-fall-1 {
       0% { transform: translate(110px, -20px) rotate(0deg); opacity: 0; }
       12% { opacity: 0.9; }
@@ -233,7 +228,6 @@
     .anim-twinkle-3 { animation: twinkle-radiant 3.6s ease-in-out 2.1s infinite; transform-origin: center; transform-box: fill-box; }
     
     .anim-border-breathe { animation: border-glow-cycle 4.5s ease-in-out infinite; }
-    .anim-shimmer { animation: shimmer-sweep 5s ease-in-out infinite; }
 
     .anim-wave1 { animation: wave-flow-1 20s linear infinite; }
     .anim-wave2 { animation: wave-flow-2 25s linear infinite; }
@@ -313,243 +307,221 @@
       <!-- Layer 7: Delicate Anime Mascot Badge Pill -->
       <g transform="translate(14, 98)">
         <rect width="100" height="23" rx="11.5" ry="11.5" fill="url(#neon-violet)" stroke="#ffffff" stroke-width="1" stroke-opacity="0.85" filter="url(#soft-glow)"/>
-        <text x="50" y="16" text-anchor="middle" class="font-title font-mono" font-size="11" fill="#ffffff" letter-spacing="0.5">🌸 若曦 · RUOXI</text>
+        <text x="50" y="16" text-anchor="middle" class="font-title font-mono" font-size="11" fill="#ffffff" letter-spacing="0.5">🌸 若曦 · 桌面小狐狸</text>
       </g>
     </g>
 
-    <!-- Header Titles & Bio -->
+    <!-- Header Titles & Bio (Natural, Warm, Human) -->
     <g transform="translate(182, 36)">
       <!-- Name & English Handle with Radiant Color Gradient -->
       <text x="0" y="24" class="font-title" font-size="27" fill="#ffffff" letter-spacing="0.5">
         于子倬 <tspan fill="url(#neon-sakura)">SherlockYzz</tspan>
       </text>
       
-      <!-- Live Status Pill (Glowing Cyan) -->
+      <!-- Live Status Pill (Warm & Human) -->
       <g transform="translate(362, 4)">
-        <rect width="198" height="26" rx="13" ry="13" fill="#142334" stroke="#00f2fe" stroke-width="1.2" filter="url(#soft-glow)" opacity="0.95"/>
+        <rect width="202" height="26" rx="13" ry="13" fill="#142334" stroke="#00f2fe" stroke-width="1.2" filter="url(#soft-glow)" opacity="0.95"/>
         <circle cx="16" cy="13" r="4.5" fill="#00f2fe" class="anim-heart"/>
-        <text x="31" y="17" class="font-sub font-mono" font-size="11" fill="#bae6fd">Focusing on AI &amp; Live2D</text>
+        <text x="31" y="17" class="font-sub font-mono" font-size="11" fill="#bae6fd">☕ 正在给桌宠写新功能</text>
       </g>
 
-      <!-- Subtitle Tagline -->
+      <!-- Subtitle Tagline (Heartfelt & Sincere) -->
       <text x="0" y="58" class="font-sub" font-size="14" fill="#fbcfe8" letter-spacing="0.2">
-        🌸 河南大学软件学院 · 智能体与交互探索者 · 在代码中雕琢细节
+        🌸 河南大学软件学院 · 爱折腾的二次元程序员 · 喜欢把热爱写进代码里
       </text>
 
-      <!-- 4 Low-Key Professional Tags with Glowing Borders -->
+      <!-- 4 Warm, Friendly Tags -->
       <g transform="translate(0, 80)">
-        <!-- Tag 1: AI Agents -->
+        <!-- Tag 1 -->
         <rect x="0" y="0" width="138" height="25" rx="12.5" ry="12.5" fill="#24163f" stroke="#c084fc" stroke-width="1.2"/>
-        <text x="69" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#e9d5ff">✨ AI Agents 智能体</text>
+        <text x="69" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#e9d5ff">🤖 喜欢玩玩智能体</text>
 
-        <!-- Tag 2: Live2D -->
+        <!-- Tag 2 -->
         <rect x="146" y="0" width="130" height="25" rx="12.5" ry="12.5" fill="#3c1324" stroke="#ff3366" stroke-width="1.2"/>
-        <text x="211" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#fecdd3">🎀 Live2D 桌面伴侣</text>
+        <text x="211" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#fecdd3">🦊 养了9只二次元桌宠</text>
 
-        <!-- Tag 3: C++ & WebGL -->
+        <!-- Tag 3 -->
         <rect x="284" y="0" width="138" height="25" rx="12.5" ry="12.5" fill="#102636" stroke="#00f2fe" stroke-width="1.2"/>
-        <text x="353" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#bae6fd">💻 C++ &amp; WebGL 渲染</text>
+        <text x="353" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#bae6fd">💻 常写 C++ &amp; WebGL</text>
 
-        <!-- Tag 4: AIGC -->
+        <!-- Tag 4 -->
         <rect x="430" y="0" width="124" height="25" rx="12.5" ry="12.5" fill="#321e10" stroke="#f59e0b" stroke-width="1.2"/>
-        <text x="492" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#fde68a">🎬 AIGC 视觉创作</text>
+        <text x="492" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#fde68a">🎬 偶尔剪剪小视频</text>
       </g>
     </g>
   </g>
 
-  <!-- ==================== 2. ENGINEERING PRACTICES & ENERGY STREAM (y: 235 ~ 385) ==================== -->
+  <!-- ==================== 2. DAILY CODE & THOUGHTS (y: 235 ~ 385) ==================== -->
   <g transform="translate(40, 235)">
     <rect width="760" height="135" rx="18" ry="18" fill="url(#card-bg)" stroke="url(#card-border-glow)" stroke-width="1.4" filter="url(#card-shadow)"/>
 
-    <!-- Section Header -->
+    <!-- Section Header (Sincere & Relatable) -->
     <g transform="translate(24, 22)">
-      <text x="0" y="10" class="font-title" font-size="16" fill="url(#neon-sakura)">💻 工程实践与研发探索 (Engineering Practices)</text>
-      <text x="712" y="10" text-anchor="end" class="font-mono font-sub" font-size="12" fill="#94a3b8">理念: 扎实底层 · 关注细节 · 保持敬畏</text>
+      <text x="0" y="10" class="font-title" font-size="16" fill="url(#neon-sakura)">💻 平时的代码小日常 (Daily Code &amp; Thoughts)</text>
+      <text x="712" y="10" text-anchor="end" class="font-mono font-sub" font-size="12" fill="#94a3b8">“写写代码，看看番，做点有趣的小东西”</text>
     </g>
 
-    <!-- Flowing Energy Stream Progress Bar -->
+    <!-- Warm Energy Stream Progress Bar -->
     <g transform="translate(24, 45)">
-      <!-- Base Track -->
       <rect width="712" height="16" rx="8" ry="8" fill="#110b20" stroke="#332454" stroke-width="1.2"/>
-      <!-- Filled Radiant Energy Stream -->
       <rect width="670" height="16" rx="8" ry="8" fill="url(#energy-stream)" filter="url(#soft-glow)"/>
-      <!-- Top Shiny Highlight Line -->
       <rect x="2" y="2" width="666" height="4" rx="2" ry="2" fill="#ffffff" opacity="0.45"/>
-      <!-- Shimmer Sweeping Beam Across the Bar -->
-      <g clip-path="url(#bar-clip)">
-        <rect x="0" y="0" width="80" height="16" fill="url(#shimmer-light)" class="anim-shimmer"/>
-      </g>
       <text x="356" y="12" text-anchor="middle" class="font-mono font-sub" font-size="10.5" font-weight="700" fill="#ffffff" letter-spacing="0.8">
-        🌱 持续精进 · 探索 Agentic AI 与图形渲染前沿 (Continuous Growth)
+        🌱 还在努力学习中 · 享受从 0 到 1 把想法敲成代码的快乐 ✨
       </text>
     </g>
 
-    <!-- 4 Solid Technical Highlights (Concrete & Respected) -->
+    <!-- 4 Real, Relatable Learning Highlights -->
     <g transform="translate(24, 76)">
-      <!-- Item 1: C++ / Core -->
+      <!-- Item 1 -->
       <g transform="translate(0, 0)">
         <rect width="168" height="42" rx="10" ry="10" fill="url(#card-inner)" stroke="#00f2fe" stroke-width="1.1" stroke-opacity="0.5"/>
-        <text x="14" y="18" class="font-sub" font-size="11" fill="#bae6fd">🧩 底层与算法基础</text>
-        <text x="14" y="34" class="font-title font-mono" font-size="13" fill="#ffffff">C / C++ (C++17)</text>
+        <text x="14" y="18" class="font-sub" font-size="11" fill="#bae6fd">🧩 基础功底</text>
+        <text x="14" y="34" class="font-title font-mono" font-size="12.5" fill="#ffffff">C / C++ 语法与算法</text>
         <circle cx="150" cy="21" r="3.5" fill="#00f2fe" class="anim-heart"/>
       </g>
 
-      <!-- Item 2: AI Agents -->
+      <!-- Item 2 -->
       <g transform="translate(181, 0)">
         <rect width="168" height="42" rx="10" ry="10" fill="url(#card-inner)" stroke="#c084fc" stroke-width="1.1" stroke-opacity="0.5"/>
-        <text x="14" y="18" class="font-sub" font-size="11" fill="#e9d5ff">🤖 智能体协同架构</text>
-        <text x="14" y="34" class="font-title font-mono" font-size="13" fill="#ffffff">Antigravity · MCP</text>
+        <text x="14" y="18" class="font-sub" font-size="11" fill="#e9d5ff">🤖 AI 协作折腾</text>
+        <text x="14" y="34" class="font-title font-mono" font-size="12.5" fill="#ffffff">智能体协同工作流</text>
         <circle cx="150" cy="21" r="3.5" fill="#c084fc" class="anim-heart"/>
       </g>
 
-      <!-- Item 3: Graphics -->
+      <!-- Item 3 -->
       <g transform="translate(362, 0)">
         <rect width="168" height="42" rx="10" ry="10" fill="url(#card-inner)" stroke="#ff3366" stroke-width="1.1" stroke-opacity="0.5"/>
-        <text x="14" y="18" class="font-sub" font-size="11" fill="#fecdd3">🎨 视觉渲染与交互</text>
-        <text x="14" y="34" class="font-title font-mono" font-size="13" fill="#ffffff">Live2D &amp; Three.js</text>
+        <text x="14" y="18" class="font-sub" font-size="11" fill="#fecdd3">🎨 画面与动效</text>
+        <text x="14" y="34" class="font-title font-mono" font-size="12.5" fill="#ffffff">Live2D &amp; 网页 3D</text>
         <circle cx="150" cy="21" r="3.5" fill="#ff3366" class="anim-heart"/>
       </g>
 
-      <!-- Item 4: Engineering -->
+      <!-- Item 4 -->
       <g transform="translate(544, 0)">
         <rect width="168" height="42" rx="10" ry="10" fill="url(#card-inner)" stroke="#f59e0b" stroke-width="1.1" stroke-opacity="0.5"/>
-        <text x="14" y="18" class="font-sub" font-size="11" fill="#fde68a">📦 客户端工程化</text>
-        <text x="14" y="34" class="font-title font-mono" font-size="13" fill="#ffffff">Electron &amp; NSIS</text>
+        <text x="14" y="18" class="font-sub" font-size="11" fill="#fde68a">📦 独立安装包</text>
+        <text x="14" y="34" class="font-title font-mono" font-size="12.5" fill="#ffffff">同学双击就能直接玩</text>
         <circle cx="150" cy="21" r="3.5" fill="#f59e0b" class="anim-heart"/>
       </g>
     </g>
   </g>
 
-  <!-- ==================== 3. FEATURED PROJECTS / 精选开源实践 (y: 395 ~ 695) ==================== -->
+  <!-- ==================== 3. FEATURED PROJECTS / 花心血做的小作品 (y: 395 ~ 695) ==================== -->
   <g transform="translate(40, 395)">
-    <!-- Section Title Bar with Neon underline -->
+    <!-- Section Title Bar -->
     <g transform="translate(0, 0)">
       <text x="0" y="16" class="font-title" font-size="18" fill="#ffffff">
-        🌸 <tspan fill="url(#neon-sakura)">精选开源实践</tspan> <tspan font-size="13" font-family="sans-serif" fill="#94a3b8" font-weight="400">(Featured Open-Source Projects)</tspan>
+        🌸 <tspan fill="url(#neon-sakura)">花心血做的小作品</tspan> <tspan font-size="13" font-family="sans-serif" fill="#94a3b8" font-weight="400">(My Passion Projects)</tspan>
       </text>
       <line x1="0" y1="26" x2="760" y2="26" stroke="#2b1f48" stroke-width="1"/>
-      <line x1="0" y1="26" x2="210" y2="26" stroke="url(#neon-sakura)" stroke-width="2.8"/>
+      <line x1="0" y1="26" x2="220" y2="26" stroke="url(#neon-sakura)" stroke-width="2.8"/>
     </g>
 
     <!-- 3 Project Cards Grid -->
     <g transform="translate(0, 42)">
-      <!-- Card 1: AI 二次元桌宠 (Highlight with Neon Pink) -->
+      <!-- Card 1: AI 二次元桌宠 (Warm & Genuine Story) -->
       <g transform="translate(0, 0)">
         <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#ff3366" stroke-width="1.6" filter="url(#card-shadow)"/>
-        <!-- Top Radiant Header Banner -->
         <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,40 L 0,40 Z" fill="url(#neon-sakura)" opacity="0.95"/>
-        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12.5" font-weight="700" fill="#ffffff">✦ 桌面伴侣开源旗舰 ✦</text>
+        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12.5" font-weight="700" fill="#ffffff">✦ 桌面陪伴小天地 ✦</text>
         
-        <!-- Title & Sub -->
         <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🦊 AI 二次元桌宠</text>
-        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#f472b6">Anime Desktop Pet (中英双版)</text>
+        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#f472b6">自习敲代码时有她们陪伴</text>
         
-        <!-- Badges -->
         <g transform="translate(20, 100)">
           <rect width="88" height="18" rx="9" ry="9" fill="#38152c"/>
           <text x="44" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#ff7eb3">9 大经典角色</text>
           
           <rect x="94" y="0" width="108" height="18" rx="9" ry="9" fill="#122b3d"/>
-          <text x="148" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">133 条原生声库</text>
+          <text x="148" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">133 条原声台词</text>
         </g>
 
-        <!-- Bullet Highlights -->
         <text x="20" y="136" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 官方公式书考据与称谓隔离
+          • 一个人敲代码无聊，想做个小陪伴
         </text>
         <text x="20" y="154" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 角色专属手账 · 长期记忆大脑
+          • 认真查了公式书，称呼人设绝不崩
         </text>
         <text x="20" y="172" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 桌面管家番茄钟 · 双核Live2D
+          • 摸头、番茄钟、漫步、专属小手账
         </text>
         <text x="20" y="190" class="font-sub" font-size="11.5" fill="#fbcfe8">
-          • 中英独立双版本发布 · 开箱即用
+          • 刚做了英文版，海外朋友也能玩！
         </text>
 
-        <!-- Stars / Status Pill -->
         <g transform="translate(20, 204)">
           <rect width="202" height="21" rx="6" ry="6" fill="#1b122e" stroke="#ff3366" stroke-width="0.8"/>
-          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#fbbf24">⭐ 9 Stars · v07.21 稳定交付</text>
+          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#fbbf24">⭐ 9 Stars · 会一直慢慢更新维护</text>
         </g>
       </g>
 
-      <!-- Card 2: 华夏岁时盛典 (Highlight with Neon Violet) -->
+      <!-- Card 2: 华夏岁时盛典 -->
       <g transform="translate(259, 0)">
         <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#a855f7" stroke-width="1.5" filter="url(#card-shadow)"/>
-        <!-- Top Radiant Header Banner -->
         <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,40 L 0,40 Z" fill="url(#neon-violet)" opacity="0.9"/>
-        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12.5" font-weight="700" fill="#ffffff">✦ 传统节令数字化 ✦</text>
+        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12.5" font-weight="700" fill="#ffffff">✦ 传统节令小庙会 ✦</text>
         
-        <!-- Title & Sub -->
         <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🏮 华夏岁时盛典</text>
-        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#c084fc">Mid-Autumn &amp; Festival Suite</text>
+        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#c084fc">用字符画出了团圆烟花</text>
         
-        <!-- Badges -->
         <g transform="translate(20, 100)">
           <rect width="96" height="18" rx="9" ry="9" fill="#2d1338"/>
-          <text x="48" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#e879f9">C++17 控制台超分</text>
+          <text x="48" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#e879f9">C++17 字符超分</text>
           
           <rect x="102" y="0" width="100" height="18" rx="9" ry="9" fill="#1b1d36"/>
-          <text x="152" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#818cf8">HTML5 粒子引擎</text>
+          <text x="152" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#818cf8">HTML5 粒子小游园</text>
         </g>
 
-        <!-- Bullet Highlights -->
         <text x="20" y="136" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 东方像素风节日交互系统
+          • 闲暇时突发奇想做的像素风小系统
         </text>
         <text x="20" y="154" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 半块字符超分高精度渲染
+          • 在黑底黑字的控制台里渲染细腻图案
         </text>
         <text x="20" y="172" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 中秋·国庆·除夕·上元四季游园
+          • 中秋、国庆、除夕、上元四大节令
         </text>
         <text x="20" y="190" class="font-sub" font-size="11.5" fill="#e9d5ff">
-          • 传统文化与交互代码的融合
+          • 纯属兴趣探索，把传统做成互动
         </text>
 
-        <!-- Status Pill -->
         <g transform="translate(20, 204)">
           <rect width="202" height="21" rx="6" ry="6" fill="#1b122e" stroke="#a855f7" stroke-width="0.8"/>
-          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#c084fc">🌐 在线游园 · GitHub Pages</text>
+          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#c084fc">🌐 网页在线游园 · 欢迎来逛逛</text>
         </g>
       </g>
 
-      <!-- Card 3: 慧眼识瓷 3D 展馆 (Highlight with Neon Aurora) -->
+      <!-- Card 3: 慧眼识瓷 3D 展馆 -->
       <g transform="translate(518, 0)">
         <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#00f2fe" stroke-width="1.5" filter="url(#card-shadow)"/>
-        <!-- Top Radiant Header Banner -->
         <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,40 L 0,40 Z" fill="url(#neon-aurora)" opacity="0.9"/>
-        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12.5" font-weight="700" fill="#ffffff">✦ 团队合作项目 ✦</text>
+        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12.5" font-weight="700" fill="#ffffff">✦ 团队小伙伴的心血 ✦</text>
         
-        <!-- Title & Sub -->
         <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🏺 慧眼识瓷 3D 展馆</text>
-        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#38bdf8">Memories of Song Porcelain</text>
+        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#38bdf8">把宋代官瓷搬到屏幕前</text>
         
-        <!-- Badges -->
         <g transform="translate(20, 100)">
           <rect width="96" height="18" rx="9" ry="9" fill="#0c2738"/>
-          <text x="48" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">Three.js / WebGL</text>
+          <text x="48" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">Three.js 3D 交互</text>
           
           <rect x="102" y="0" width="100" height="18" rx="9" ry="9" fill="#152438"/>
-          <text x="152" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#60a5fa">宋代官瓷数字化</text>
+          <text x="152" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#60a5fa">开封千年官瓷</text>
         </g>
 
-        <!-- Bullet Highlights -->
         <text x="20" y="136" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 360° 交互审视三维宋瓷数字藏品
+          • 和团队小伙伴一起并肩完成的大赛项目
         </text>
         <text x="20" y="154" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • AI 识瓷与水墨工艺长卷展示
+          • 鼠标拖拽就能 360 度转着看瓷器细节
         </text>
         <text x="20" y="172" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 团队分工协作与 WebGL 交互
+          • 配了水墨长卷，想让非遗看起来更年轻
         </text>
         <text x="20" y="190" class="font-sub" font-size="11.5" fill="#bae6fd">
-          • 开封官瓷非遗文化数字化传承
+          • 合作非常开心，也学到了很多 3D 技术
         </text>
 
-        <!-- Status Pill -->
         <g transform="translate(20, 204)">
           <rect width="202" height="21" rx="6" ry="6" fill="#1b122e" stroke="#00f2fe" stroke-width="0.8"/>
           <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#38bdf8">⭐ 6 Stars · 3D 在线展馆</text>
@@ -563,13 +535,13 @@
     <!-- Section Title Bar -->
     <g transform="translate(0, 0)">
       <text x="0" y="16" class="font-title" font-size="18" fill="#ffffff">
-        🏆 <tspan fill="url(#neon-gold)">竞赛历练与获奖经历</tspan> <tspan font-size="13" font-family="sans-serif" fill="#94a3b8" font-weight="400">(Competitions &amp; Milestones)</tspan>
+        🏆 <tspan fill="url(#neon-gold)">大学里的几次比赛历练</tspan> <tspan font-size="13" font-family="sans-serif" fill="#94a3b8" font-weight="400">(My Competition Milestones)</tspan>
       </text>
       <line x1="0" y1="26" x2="760" y2="26" stroke="#2b1f48" stroke-width="1"/>
       <line x1="0" y1="26" x2="220" y2="26" stroke="url(#neon-gold)" stroke-width="2.8"/>
     </g>
 
-    <!-- 3 Medals Cards with Radiant Borders -->
+    <!-- 3 Medals Cards with Warm Descriptions -->
     <g transform="translate(0, 42)">
       <!-- Medal 1: 蓝桥杯 -->
       <g transform="translate(0, 0)">
@@ -579,10 +551,10 @@
           <text x="18" y="24" text-anchor="middle" font-size="17">🥈</text>
         </g>
         <g transform="translate(64, 21)">
-          <text x="0" y="15" class="font-title" font-size="14" fill="#f1f5f9">蓝桥杯全国软件大赛</text>
+          <text x="0" y="15" class="font-title" font-size="14" fill="#f1f5f9">蓝桥杯软件大赛</text>
           <text x="0" y="34" class="font-sub font-mono" font-size="11.5" fill="#cbd5e1">C++ 软件类 · 省级二等奖</text>
           <rect x="0" y="44" width="155" height="19" rx="4" ry="4" fill="#1e293b"/>
-          <text x="77" y="57" text-anchor="middle" class="font-mono" font-size="10" fill="#94a3b8">2026 第十七届全国大赛</text>
+          <text x="77" y="57" text-anchor="middle" class="font-mono" font-size="10" fill="#94a3b8">刷题备赛那些天挺充实的</text>
         </g>
       </g>
 
@@ -594,10 +566,10 @@
           <text x="18" y="24" text-anchor="middle" font-size="17">🥉</text>
         </g>
         <g transform="translate(64, 21)">
-          <text x="0" y="15" class="font-title" font-size="14" fill="#ffedd5">中国大学生计算机设计大赛</text>
+          <text x="0" y="15" class="font-title" font-size="14" fill="#ffedd5">大学生计算机设计大赛</text>
           <text x="0" y="34" class="font-sub font-mono" font-size="11.5" fill="#fdba74">数媒动漫赛道 · 省三 / 校二</text>
           <rect x="0" y="44" width="155" height="19" rx="4" ry="4" fill="#321b12"/>
-          <text x="77" y="57" text-anchor="middle" class="font-mono" font-size="10" fill="#fed7aa">2026 全国高校 A 类竞赛</text>
+          <text x="77" y="57" text-anchor="middle" class="font-mono" font-size="10" fill="#fed7aa">和队友一起熬夜改动效</text>
         </g>
       </g>
 
@@ -609,10 +581,10 @@
           <text x="18" y="24" text-anchor="middle" font-size="17">🏅</text>
         </g>
         <g transform="translate(64, 21)">
-          <text x="0" y="15" class="font-title" font-size="14" fill="#fef3c7">中国机器人及人工智能大赛</text>
+          <text x="0" y="15" class="font-title" font-size="14" fill="#fef3c7">中国机器人及 AI 大赛</text>
           <text x="0" y="34" class="font-sub font-mono" font-size="11.5" fill="#fde047">创新赛道 · 省赛优秀奖</text>
           <rect x="0" y="44" width="155" height="19" rx="4" ry="4" fill="#2d2109"/>
-          <text x="77" y="57" text-anchor="middle" class="font-mono" font-size="10" fill="#fef08a">2026 前沿智能竞技</text>
+          <text x="77" y="57" text-anchor="middle" class="font-mono" font-size="10" fill="#fef08a">尝试做前沿 AI 的一次尝试</text>
         </g>
       </g>
     </g>
@@ -623,24 +595,24 @@
     <!-- Section Title Bar -->
     <g transform="translate(0, 0)">
       <text x="0" y="16" class="font-title" font-size="18" fill="#ffffff">
-        🛠️ <tspan fill="url(#neon-violet)">技术栈与工具生态</tspan> <tspan font-size="13" font-family="sans-serif" fill="#94a3b8" font-weight="400">(Technical Stack &amp; Tools)</tspan>
+        🛠️ <tspan fill="url(#neon-violet)">平时爱用的技术与小工具</tspan> <tspan font-size="13" font-family="sans-serif" fill="#94a3b8" font-weight="400">(My Daily Tech Stack)</tspan>
       </text>
       <line x1="0" y1="26" x2="760" y2="26" stroke="#2b1f48" stroke-width="1"/>
       <line x1="0" y1="26" x2="230" y2="26" stroke="url(#neon-violet)" stroke-width="2.8"/>
     </g>
 
-    <!-- 4 Panels (2x2) with Glowing Borders -->
+    <!-- 4 Panels with Warm Descriptions -->
     <g transform="translate(0, 42)">
       <!-- Panel 1: AI & Agents -->
       <g transform="translate(0, 0)">
         <rect width="368" height="96" rx="14" ry="14" fill="url(#card-bg)" stroke="#a855f7" stroke-width="1.3" stroke-opacity="0.6"/>
-        <text x="18" y="25" class="font-title" font-size="13.5" fill="#e9d5ff">🤖 前沿 AI 与 Agent 体系 (Agentic Workflows)</text>
+        <text x="18" y="25" class="font-title" font-size="13.5" fill="#e9d5ff">🤖 智能体辅助开发 (AI Workflows)</text>
         <g transform="translate(18, 38)">
           <text x="0" y="17" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
-            • <tspan fill="#c084fc" font-weight="700">Google Antigravity</tspan> · OpenAI Codex · Claude
+            • 常用 <tspan fill="#c084fc" font-weight="700">Antigravity</tspan> 和 Codex 协同写代码
           </text>
           <text x="0" y="37" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
-            • MCP 协议规范 · Multi-Agent 多智能体协同实践
+            • 折腾过 MCP 工具协议，很享受多 Agent 协作的感觉
           </text>
         </g>
       </g>
@@ -648,13 +620,13 @@
       <!-- Panel 2: Graphics & Rendering -->
       <g transform="translate(392, 0)">
         <rect width="368" height="96" rx="14" ry="14" fill="url(#card-bg)" stroke="#ff3366" stroke-width="1.3" stroke-opacity="0.6"/>
-        <text x="18" y="25" class="font-title" font-size="13.5" fill="#fecdd3">🎨 图形渲染与交互呈现 (Graphics &amp; UI)</text>
+        <text x="18" y="25" class="font-title" font-size="13.5" fill="#fecdd3">🎨 画面渲染与动效呈现 (Graphics)</text>
         <g transform="translate(18, 38)">
           <text x="0" y="17" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
-            • <tspan fill="#ff3366" font-weight="700">Live2D Cubism SDK</tspan> · Electron 桌面容器
+            • 喜欢 <tspan fill="#ff3366" font-weight="700">Live2D Cubism</tspan> 做桌宠，用 Electron 做客户端
           </text>
           <text x="0" y="37" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
-            • Three.js (WebGL) · HTML5 Canvas 粒子系统
+            • 玩过 Three.js 搭建 3D 展馆与 Canvas 粒子
           </text>
         </g>
       </g>
@@ -662,13 +634,13 @@
       <!-- Panel 3: Core Languages -->
       <g transform="translate(0, 110)">
         <rect width="368" height="96" rx="14" ry="14" fill="url(#card-bg)" stroke="#00f2fe" stroke-width="1.3" stroke-opacity="0.6"/>
-        <text x="18" y="25" class="font-title" font-size="13.5" fill="#bae6fd">💻 编程语言与工程基础 (Core Languages)</text>
+        <text x="18" y="25" class="font-title" font-size="13.5" fill="#bae6fd">💻 常用编程语言 (Languages)</text>
         <g transform="translate(18, 38)">
           <text x="0" y="17" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
-            • <tspan fill="#00f2fe" font-weight="700">C / C++ (C++17 现代语法)</tspan> · 算法与数据结构
+            • 用 <tspan fill="#00f2fe" font-weight="700">C / C++ (C++17)</tspan> 练扎实内功与算法逻辑
           </text>
           <text x="0" y="37" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
-            • JavaScript (ES6+) / TypeScript · Python 接口开发
+            • 写项目用 JavaScript / TS，偶尔用 Python 跑小脚本
           </text>
         </g>
       </g>
@@ -676,20 +648,20 @@
       <!-- Panel 4: Media & Tools -->
       <g transform="translate(392, 110)">
         <rect width="368" height="96" rx="14" ry="14" fill="url(#card-bg)" stroke="#f59e0b" stroke-width="1.3" stroke-opacity="0.6"/>
-        <text x="18" y="25" class="font-title" font-size="13.5" fill="#ffedd5">🎬 多媒体与工具链 (Media &amp; Ecosystem)</text>
+        <text x="18" y="25" class="font-title" font-size="13.5" fill="#ffedd5">🎬 视频剪辑与业余爱好 (Hobbies)</text>
         <g transform="translate(18, 38)">
           <text x="0" y="17" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
-            • 可灵 (Kling) / Seedance AI 视频 · ComfyUI 工作流
+            • 平时喜欢在 B 站剪视频，常备 PR / AE 剪刀手
           </text>
           <text x="0" y="37" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
-            • Adobe PR / AE 后期 · Git 协同 · Ollama 本地模型
+            • 跟进可灵与 ComfyUI，热爱技术，更热爱生活
           </text>
         </g>
       </g>
     </g>
   </g>
 
-  <!-- ==================== 6. TRIPLE GALAXY WAVES & ROMANTIC FOOTER (y: 1250 ~ 1540) ==================== -->
+  <!-- ==================== 6. TRIPLE GALAXY WAVES & HEARTFELT FOOTER (y: 1250 ~ 1540) ==================== -->
   <g transform="translate(0, 1260)">
     <!-- Wave 1 (Deep Violet - Back) -->
     <path class="anim-wave2" fill="url(#wave-layer-1)" d="M 0,70 Q 210,30 420,70 T 840,70 T 1260,70 T 1680,70 L 1680,280 L 0,280 Z"/>
@@ -700,7 +672,7 @@
     <!-- Wave 3 (Cyan Aurora - Front) -->
     <path class="anim-wave3" fill="url(#wave-layer-3)" d="M 0,115 Q 210,80 420,115 T 840,115 T 1260,115 T 1680,115 L 1680,280 L 0,280 Z"/>
 
-    <!-- Signoff Card with Floating Anime Star -->
+    <!-- Signoff Card with Heartfelt Message -->
     <g transform="translate(40, 42)">
       <rect width="760" height="145" rx="18" ry="18" fill="url(#card-bg)" stroke="url(#neon-sakura)" stroke-width="1.4" filter="url(#card-shadow)"/>
       
@@ -710,19 +682,19 @@
         <text x="0" y="6" text-anchor="middle" font-size="17">🌸</text>
       </g>
 
-      <!-- Humble Motto -->
+      <!-- Heartfelt Human Motto -->
       <text x="380" y="68" text-anchor="middle" class="font-title font-sub" font-size="16.5" fill="#ffffff" letter-spacing="0.8">
         「保持好奇，持续动手，在热爱中构建细节。」
       </text>
 
-      <text x="380" y="94" text-anchor="middle" class="font-sub font-mono" font-size="12" fill="#f472b6" letter-spacing="0.4">
-        ✦ Crafting with care, learning with humility, growing through code ✦
+      <text x="380" y="94" text-anchor="middle" class="font-sub" font-size="12.5" fill="#fbcfe8" letter-spacing="0.4">
+        代码或许只是字符，但屏幕前跳动的每一个像素，都是想传递给你的温暖。
       </text>
 
       <!-- Copyright & University -->
       <g transform="translate(380, 118)">
-        <text x="0" y="0" text-anchor="middle" class="font-mono font-body" font-size="10.5" fill="#94a3b8">
-          Henan University · Software College · 于子倬 (SherlockYzz)
+        <text x="0" y="0" text-anchor="middle" class="font-mono font-body" font-size="11" fill="#94a3b8">
+          河南大学软件学院 · 于子倬 (SherlockYzz) · 很高兴在这颗星球与你相遇 🌸
         </text>
       </g>
     </g>
