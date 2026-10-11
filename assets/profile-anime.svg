@@ -1,0 +1,666 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1560" viewBox="0 0 840 1560" role="img" aria-label="SherlockYzz Anime Profile">
+  <title>SherlockYzz (于子倬) — Anime &amp; AI Creator</title>
+  
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c1b"/>
+      <stop offset="35%" stop-color="#181028"/>
+      <stop offset="70%" stop-color="#120e24"/>
+      <stop offset="100%" stop-color="#0a0814"/>
+    </linearGradient>
+
+    <!-- Romantic Color Gradients -->
+    <linearGradient id="sakura-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff758c"/>
+      <stop offset="50%" stop-color="#ff7eb3"/>
+      <stop offset="100%" stop-color="#fda085"/>
+    </linearGradient>
+
+    <linearGradient id="aurora-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <linearGradient id="violet-pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <linearGradient id="gold-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f6d365"/>
+      <stop offset="100%" stop-color="#fda085"/>
+    </linearGradient>
+
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff758c" stop-opacity="0.6"/>
+      <stop offset="30%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#00f2fe" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff7eb3" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1535" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#140d24" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <linearGradient id="card-inner-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#281a44" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#18112a" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <linearGradient id="exp-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="40%" stop-color="#a855f7"/>
+      <stop offset="80%" stop-color="#ff758c"/>
+      <stop offset="100%" stop-color="#fbcfe8"/>
+    </linearGradient>
+
+    <linearGradient id="wave-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff758c" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="wave-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#ff7eb3" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="sakura-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="cyan-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#ff758c" flood-opacity="0.12"/>
+    </filter>
+
+    <!-- Sakura Petal Shape Definition -->
+    <path id="petal" d="M 0,-8 C 4,-6 8,-2 7,4 C 6,10 0,12 0,12 C 0,12 -6,10 -7,4 C -8,-2 -4,-6 0,-8 Z" fill="#ffb7c5" opacity="0.85"/>
+  </defs>
+
+  <!-- Embedded High-Performance CSS Animations -->
+  <style>
+    /* Typography */
+    .font-title { font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif; font-weight: 800; }
+    .font-sub { font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif; font-weight: 600; }
+    .font-body { font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif; font-weight: 400; }
+    .font-mono { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; }
+
+    /* Keyframe Animations */
+    @keyframes float-gentle {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-7px) rotate(1deg); }
+    }
+    
+    @keyframes pulse-slow {
+      0%, 100% { transform: scale(1); opacity: 0.95; }
+      50% { transform: scale(1.05); opacity: 1; }
+    }
+
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      14% { transform: scale(1.15); }
+      28% { transform: scale(1); }
+      42% { transform: scale(1.12); }
+      70% { transform: scale(1); }
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.2; transform: scale(0.7); }
+      50% { opacity: 1; transform: scale(1.25); }
+    }
+
+    @keyframes sakura-fall-1 {
+      0% { transform: translate(120px, -20px) rotate(0deg); opacity: 0; }
+      15% { opacity: 0.9; }
+      85% { opacity: 0.8; }
+      100% { transform: translate(40px, 1580px) rotate(540deg); opacity: 0; }
+    }
+
+    @keyframes sakura-fall-2 {
+      0% { transform: translate(380px, -20px) rotate(45deg); opacity: 0; }
+      20% { opacity: 0.85; }
+      80% { opacity: 0.8; }
+      100% { transform: translate(260px, 1580px) rotate(720deg); opacity: 0; }
+    }
+
+    @keyframes sakura-fall-3 {
+      0% { transform: translate(650px, -20px) rotate(-30deg); opacity: 0; }
+      15% { opacity: 0.95; }
+      85% { opacity: 0.75; }
+      100% { transform: translate(750px, 1580px) rotate(600deg); opacity: 0; }
+    }
+
+    @keyframes sakura-fall-4 {
+      0% { transform: translate(500px, -20px) rotate(60deg); opacity: 0; }
+      10% { opacity: 0.85; }
+      90% { opacity: 0.8; }
+      100% { transform: translate(410px, 1580px) rotate(680deg); opacity: 0; }
+    }
+
+    @keyframes sakura-fall-5 {
+      0% { transform: translate(780px, -20px) rotate(15deg); opacity: 0; }
+      25% { opacity: 0.9; }
+      80% { opacity: 0.7; }
+      100% { transform: translate(660px, 1580px) rotate(800deg); opacity: 0; }
+    }
+
+    @keyframes exp-glow {
+      0%, 100% { filter: drop-shadow(0 0 4px #ff758c); }
+      50% { filter: drop-shadow(0 0 10px #00f2fe); }
+    }
+
+    @keyframes wave-flow-1 {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-400px); }
+    }
+
+    @keyframes wave-flow-2 {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(400px); }
+    }
+
+    @keyframes glow-border {
+      0%, 100% { stroke-opacity: 0.45; }
+      50% { stroke-opacity: 0.95; }
+    }
+
+    /* Animation Classes */
+    .anim-float { animation: float-gentle 4.5s ease-in-out infinite; }
+    .anim-pulse { animation: pulse-slow 3s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+    .anim-heart { animation: heartbeat 2.2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+    .anim-twinkle-1 { animation: twinkle 3s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+    .anim-twinkle-2 { animation: twinkle 4.2s ease-in-out 1.2s infinite; transform-origin: center; transform-box: fill-box; }
+    .anim-twinkle-3 { animation: twinkle 3.6s ease-in-out 2.1s infinite; transform-origin: center; transform-box: fill-box; }
+    .anim-exp { animation: exp-glow 3s ease-in-out infinite; }
+    .anim-wave1 { animation: wave-flow-1 18s linear infinite; }
+    .anim-wave2 { animation: wave-flow-2 22s linear infinite; }
+    .anim-border { animation: glow-border 3.5s ease-in-out infinite; }
+
+    .sakura-1 { animation: sakura-fall-1 14s linear 0s infinite; }
+    .sakura-2 { animation: sakura-fall-2 17s linear 3s infinite; }
+    .sakura-3 { animation: sakura-fall-3 15s linear 6s infinite; }
+    .sakura-4 { animation: sakura-fall-4 18s linear 2s infinite; }
+    .sakura-5 { animation: sakura-fall-5 16s linear 8s infinite; }
+
+    .hover-card { transition: all 0.3s ease; }
+    .hover-card:hover { transform: translateY(-4px); }
+  </style>
+
+  <!-- ==================== BACKGROUND CANVAS ==================== -->
+  <rect width="840" height="1560" rx="24" ry="24" fill="url(#bg-grad)"/>
+
+  <!-- Subtle Ambient Glow Orbs -->
+  <circle cx="150" cy="180" r="180" fill="#ff758c" opacity="0.12" filter="blur(60px)"/>
+  <circle cx="700" cy="320" r="220" fill="#a855f7" opacity="0.12" filter="blur(70px)"/>
+  <circle cx="200" cy="850" r="240" fill="#00f2fe" opacity="0.08" filter="blur(80px)"/>
+  <circle cx="680" cy="1200" r="200" fill="#ff7eb3" opacity="0.1" filter="blur(70px)"/>
+
+  <!-- Star Grid Dots -->
+  <g opacity="0.18" fill="#ffffff">
+    <circle cx="80" cy="100" r="1.5"/><circle cx="220" cy="80" r="1.5"/><circle cx="360" cy="120" r="1.5"/>
+    <circle cx="500" cy="90" r="1.5"/><circle cx="640" cy="110" r="1.5"/><circle cx="760" cy="85" r="1.5"/>
+    <circle cx="120" cy="300" r="1.5"/><circle cx="440" cy="320" r="1.5"/><circle cx="720" cy="280" r="1.5"/>
+    <circle cx="60" cy="600" r="1.5"/><circle cx="300" cy="580" r="1.5"/><circle cx="580" cy="620" r="1.5"/>
+    <circle cx="180" cy="900" r="1.5"/><circle cx="480" cy="880" r="1.5"/><circle cx="760" cy="920" r="1.5"/>
+    <circle cx="100" cy="1250" r="1.5"/><circle cx="380" cy="1220" r="1.5"/><circle cx="660" cy="1280" r="1.5"/>
+  </g>
+
+  <!-- Twinkling Stars -->
+  <g fill="#ffd700">
+    <path class="anim-twinkle-1" d="M 690,120 Q 690,130 680,130 Q 690,130 690,140 Q 690,130 700,130 Q 690,130 690,120 Z" opacity="0.75"/>
+    <path class="anim-twinkle-2" d="M 140,240 Q 140,248 132,248 Q 140,248 140,256 Q 140,248 148,248 Q 140,248 140,240 Z" opacity="0.7"/>
+    <path class="anim-twinkle-3" d="M 750,560 Q 750,568 742,568 Q 750,568 750,576 Q 750,568 758,568 Q 750,568 750,560 Z" opacity="0.8"/>
+    <path class="anim-twinkle-2" d="M 80,1050 Q 80,1058 72,1058 Q 80,1058 80,1066 Q 80,1058 88,1058 Q 80,1058 80,1050 Z" opacity="0.75"/>
+    <path class="anim-twinkle-1" d="M 720,1380 Q 720,1388 712,1388 Q 720,1388 720,1396 Q 720,1388 728,1388 Q 720,1388 720,1380 Z" opacity="0.8"/>
+  </g>
+
+  <!-- Animated Falling Sakura Petals -->
+  <g>
+    <use href="#petal" class="sakura-1"/>
+    <use href="#petal" class="sakura-2" transform="scale(1.2)"/>
+    <use href="#petal" class="sakura-3" transform="scale(0.85)"/>
+    <use href="#petal" class="sakura-4" transform="scale(1.1)"/>
+    <use href="#petal" class="sakura-5" transform="scale(0.9)"/>
+  </g>
+
+  <!-- ==================== 1. HERO HEADER (y: 35 ~ 220) ==================== -->
+  <g transform="translate(40, 35)">
+    <!-- Header Outer Glass Card -->
+    <rect width="760" height="175" rx="20" ry="20" fill="url(#card-bg)" stroke="url(#card-border)" stroke-width="1.6" filter="url(#card-shadow)" class="anim-border"/>
+    
+    <!-- Avatar Halo Ring with Floating Motion -->
+    <g transform="translate(30, 24)" class="anim-float">
+      <!-- Glow Aura -->
+      <circle cx="62" cy="62" r="66" fill="url(#sakura-grad)" opacity="0.35" filter="url(#sakura-glow)"/>
+      <circle cx="62" cy="62" r="62" fill="url(#card-inner-bg)" stroke="url(#sakura-grad)" stroke-width="3"/>
+      <!-- Inner Anime Emblem (White Fox / Magic Crest) -->
+      <path d="M 62,34 C 44,48 42,76 50,90 C 58,104 66,94 62,90 C 56,84 56,66 62,54 C 68,66 68,84 62,90 C 58,94 66,104 74,90 C 82,76 80,48 62,34 Z" fill="url(#sakura-grad)"/>
+      <!-- Fox Spirit Ears -->
+      <path d="M 46,38 Q 36,20 48,22 Q 54,32 50,44 Z" fill="#ff7eb3"/>
+      <path d="M 78,38 Q 88,20 76,22 Q 70,32 74,44 Z" fill="#ff7eb3"/>
+      <!-- Star Heart Sparkle -->
+      <path d="M 62,60 Q 62,68 56,68 Q 62,68 62,76 Q 62,68 68,68 Q 62,68 62,60 Z" fill="#ffffff" class="anim-heart"/>
+      <!-- Level Badge Capsule -->
+      <rect x="22" y="96" width="80" height="22" rx="11" ry="11" fill="url(#violet-pink)"/>
+      <text x="62" y="111" text-anchor="middle" class="font-title font-mono" font-size="11" font-weight="900" fill="#ffffff">LV.99 CREATOR</text>
+    </g>
+
+    <!-- Header Titles & Bio -->
+    <g transform="translate(180, 36)">
+      <!-- Name & Badge -->
+      <text x="0" y="24" class="font-title" font-size="27" fill="#ffffff" letter-spacing="0.5">
+        于子倬 <tspan fill="url(#sakura-grad)">SherlockYzz</tspan>
+      </text>
+      
+      <!-- Live Status Pill -->
+      <g transform="translate(360, 4)">
+        <rect width="200" height="26" rx="13" ry="13" fill="#1b2838" stroke="#00f2fe" stroke-width="1.2" opacity="0.95"/>
+        <circle cx="16" cy="13" r="5" fill="#00f2fe" class="anim-pulse"/>
+        <text x="32" y="17" class="font-sub font-mono" font-size="11" fill="#e0f2fe">Agentic AI &amp; Live2D</text>
+      </g>
+
+      <!-- Subtitle Tagline -->
+      <text x="0" y="58" class="font-sub" font-size="14" fill="#fbcfe8" letter-spacing="0.2">
+        🌸 河南大学软件学院 · 二次元智能体造物者 · 东方交互美学探索者
+      </text>
+
+      <!-- Tags Pills Row -->
+      <g transform="translate(0, 80)">
+        <!-- Pill 1: Antigravity -->
+        <rect x="0" y="0" width="138" height="24" rx="12" ry="12" fill="#2d1b4e" stroke="#c084fc" stroke-width="1"/>
+        <text x="69" y="16" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#e9d5ff">✨ AGY &amp; Codex 中枢</text>
+
+        <!-- Pill 2: Live2D -->
+        <rect x="146" y="0" width="128" height="24" rx="12" ry="12" fill="#4a1525" stroke="#ff758c" stroke-width="1"/>
+        <text x="210" y="16" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#fecdd3">🎀 Live2D 双核引擎</text>
+
+        <!-- Pill 3: FullStack -->
+        <rect x="282" y="0" width="136" height="24" rx="12" ry="12" fill="#132f38" stroke="#00f2fe" stroke-width="1"/>
+        <text x="350" y="16" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#cffafe">💻 C++ &amp; WebGL 全栈</text>
+
+        <!-- Pill 4: AIGC -->
+        <rect x="426" y="0" width="122" height="24" rx="12" ry="12" fill="#382510" stroke="#fda085" stroke-width="1"/>
+        <text x="487" y="16" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#ffedd5">🎬 AIGC 视觉工作流</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== 2. ANIME RPG STATUS & EXP BAR (y: 235 ~ 385) ==================== -->
+  <g transform="translate(40, 235)">
+    <!-- Main Card Body -->
+    <rect width="760" height="135" rx="18" ry="18" fill="url(#card-bg)" stroke="url(#card-border)" stroke-width="1.4" filter="url(#card-shadow)"/>
+
+    <!-- Section Header -->
+    <g transform="translate(24, 22)">
+      <text x="0" y="10" class="font-title" font-size="16" fill="url(#sakura-grad)">👑 角色属性与羁绊灵能 (RPG Status &amp; Resonance)</text>
+      <text x="712" y="10" text-anchor="end" class="font-mono font-sub" font-size="12" fill="#94a3b8">Class: 次元造物工匠 (Dimension Creator)</text>
+    </g>
+
+    <!-- EXP Progress Bar (Glow Energy) -->
+    <g transform="translate(24, 45)">
+      <!-- Track Background -->
+      <rect width="712" height="16" rx="8" ry="8" fill="#120c24" stroke="#332454" stroke-width="1"/>
+      <!-- Active Filled Energy Bar -->
+      <rect width="676" height="16" rx="8" ry="8" fill="url(#exp-bar)" class="anim-exp"/>
+      <!-- Shine Highlights -->
+      <rect x="2" y="2" width="672" height="4" rx="2" ry="2" fill="#ffffff" opacity="0.45"/>
+      <!-- Value Text -->
+      <text x="356" y="12" text-anchor="middle" class="font-mono font-title" font-size="10" font-weight="900" fill="#ffffff" letter-spacing="1">EXP 99999 / 99999 (MAX TIER · 羁绊十阶全达成)</text>
+    </g>
+
+    <!-- 4 Stats Capsule Counters -->
+    <g transform="translate(24, 76)">
+      <!-- Stat 1: HP / 创造活力 -->
+      <g transform="translate(0, 0)">
+        <rect width="168" height="42" rx="10" ry="10" fill="url(#card-inner-bg)" stroke="#ff758c" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="14" y="19" class="font-sub" font-size="11" fill="#fbcfe8">❤️ 脑洞创造力</text>
+        <text x="14" y="34" class="font-title font-mono" font-size="14" fill="#ffffff">100% (MAX)</text>
+        <circle cx="150" cy="21" r="4" fill="#ff758c" class="anim-pulse"/>
+      </g>
+
+      <!-- Stat 2: MP / 灵感与专注 -->
+      <g transform="translate(181, 0)">
+        <rect width="168" height="42" rx="10" ry="10" fill="url(#card-inner-bg)" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="14" y="19" class="font-sub" font-size="11" fill="#bae6fd">💧 专注与灵感值</text>
+        <text x="14" y="34" class="font-title font-mono" font-size="14" fill="#ffffff">9999 / 9999</text>
+        <circle cx="150" cy="21" r="4" fill="#00f2fe" class="anim-pulse"/>
+      </g>
+
+      <!-- Stat 3: ATK / 代码行动力 -->
+      <g transform="translate(362, 0)">
+        <rect width="168" height="42" rx="10" ry="10" fill="url(#card-inner-bg)" stroke="#c084fc" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="14" y="19" class="font-sub" font-size="11" fill="#e9d5ff">⚔️ 代码工程力</text>
+        <text x="14" y="34" class="font-title font-mono" font-size="14" fill="#ffffff">RANK EX</text>
+        <circle cx="150" cy="21" r="4" fill="#c084fc" class="anim-pulse"/>
+      </g>
+
+      <!-- Stat 4: LUK / 幸运与热爱 -->
+      <g transform="translate(544, 0)">
+        <rect width="168" height="42" rx="10" ry="10" fill="url(#card-inner-bg)" stroke="#f6d365" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="14" y="19" class="font-sub" font-size="11" fill="#fef08a">✨ 热爱与信念</text>
+        <text x="14" y="34" class="font-title font-mono" font-size="14" fill="#ffffff">∞</text>
+        <circle cx="150" cy="21" r="4" fill="#f6d365" class="anim-pulse"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== 3. FEATURED CREATIONS / 代表作展台 (y: 395 ~ 695) ==================== -->
+  <g transform="translate(40, 395)">
+    <!-- Section Title Bar -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="16" class="font-title" font-size="18" fill="#ffffff">
+        🌸 <tspan fill="url(#sakura-grad)">代表作·精选次元展台</tspan> <tspan font-size="13" font-family="sans-serif" fill="#94a3b8" font-weight="400">(Featured Masterpieces)</tspan>
+      </text>
+      <line x1="0" y1="26" x2="760" y2="26" stroke="#332454" stroke-width="1"/>
+      <line x1="0" y1="26" x2="220" y2="26" stroke="url(#sakura-grad)" stroke-width="2.5"/>
+    </g>
+
+    <!-- 3 Showcase Cards Grid -->
+    <g transform="translate(0, 42)">
+      <!-- Card 1: AI 二次元桌宠 (Highlight!) -->
+      <g transform="translate(0, 0)">
+        <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#ff758c" stroke-width="1.8" filter="url(#card-shadow)"/>
+        <!-- Top Banner Gradient -->
+        <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,42 L 0,42 Z" fill="url(#sakura-grad)" opacity="0.95"/>
+        <text x="121" y="27" text-anchor="middle" class="font-title font-mono" font-size="13" font-weight="900" fill="#ffffff">★ FLAGSHIP 镇站之宝 ★</text>
+        
+        <!-- Card Icon & Title -->
+        <text x="20" y="70" class="font-title" font-size="16" fill="#ffffff">🦊 AI 二次元桌宠</text>
+        <text x="20" y="90" class="font-sub font-mono" font-size="11" fill="#f472b6">Anime Desktop Pet (双版本)</text>
+        
+        <!-- Badges Row -->
+        <g transform="translate(20, 102)">
+          <rect width="88" height="18" rx="9" ry="9" fill="#2d132c"/>
+          <text x="44" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#ff7eb3">9 大经典角色</text>
+          
+          <rect x="94" y="0" width="108" height="18" rx="9" ry="9" fill="#132b38"/>
+          <text x="148" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">133 条原生原声</text>
+        </g>
+
+        <!-- Description -->
+        <text x="20" y="138" class="font-body" font-size="11.5" fill="#cbd5e1">
+          • 官方公式书考据十阶羁绊系统
+        </text>
+        <text x="20" y="156" class="font-body" font-size="11.5" fill="#cbd5e1">
+          • 角色专属手账 · 长期记忆大脑
+        </text>
+        <text x="20" y="174" class="font-body" font-size="11.5" fill="#cbd5e1">
+          • 创世神彩蛋 · 双核 Live2D
+        </text>
+        <text x="20" y="192" class="font-sub" font-size="11.5" fill="#fbcfe8">
+          • 中英双版本独立发布 · 开箱即用
+        </text>
+
+        <!-- Stars / Status Pill -->
+        <g transform="translate(20, 206)">
+          <rect width="202" height="20" rx="6" ry="6" fill="#1e1333"/>
+          <text x="101" y="14" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#fbbf24">⭐ 9 Stars · v07.21 最终典藏版</text>
+        </g>
+      </g>
+
+      <!-- Card 2: 华夏岁时盛典 -->
+      <g transform="translate(259, 0)">
+        <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#a855f7" stroke-width="1.5" filter="url(#card-shadow)"/>
+        <!-- Top Banner Gradient -->
+        <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,42 L 0,42 Z" fill="url(#violet-pink)" opacity="0.9"/>
+        <text x="121" y="27" text-anchor="middle" class="font-title font-mono" font-size="13" font-weight="900" fill="#ffffff">🏮 EASTERN AESTHETICS</text>
+        
+        <!-- Card Icon & Title -->
+        <text x="20" y="70" class="font-title" font-size="16" fill="#ffffff">🏮 华夏岁时盛典</text>
+        <text x="20" y="90" class="font-sub font-mono" font-size="11" fill="#c084fc">Mid-Autumn &amp; Festival Suite</text>
+        
+        <!-- Badges Row -->
+        <g transform="translate(20, 102)">
+          <rect width="96" height="18" rx="9" ry="9" fill="#2d1338"/>
+          <text x="48" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#e879f9">C++17 控制台渲染</text>
+          
+          <rect x="102" y="0" width="100" height="18" rx="9" ry="9" fill="#1e2238"/>
+          <text x="152" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#818cf8">HTML5 粒子引擎</text>
+        </g>
+
+        <!-- Description -->
+        <text x="20" y="138" class="font-body" font-size="11.5" fill="#cbd5e1">
+          • 东方像素风节日交互系统
+        </text>
+        <text x="20" y="156" class="font-body" font-size="11.5" fill="#cbd5e1">
+          • 半块像素超分高精度字符画
+        </text>
+        <text x="20" y="174" class="font-body" font-size="11.5" fill="#cbd5e1">
+          • 中秋·国庆·除夕·上元四季游园
+        </text>
+        <text x="20" y="192" class="font-sub" font-size="11.5" fill="#e9d5ff">
+          • 传统节令与数字化创新的碰撞
+        </text>
+
+        <!-- Stars / Status Pill -->
+        <g transform="translate(20, 206)">
+          <rect width="202" height="20" rx="6" ry="6" fill="#1e1333"/>
+          <text x="101" y="14" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#c084fc">🌐 在线游园 · GitHub Pages</text>
+        </g>
+      </g>
+
+      <!-- Card 3: 慧眼识瓷 3D 展馆 -->
+      <g transform="translate(518, 0)">
+        <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#00f2fe" stroke-width="1.5" filter="url(#card-shadow)"/>
+        <!-- Top Banner Gradient -->
+        <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,42 L 0,42 Z" fill="url(#aurora-grad)" opacity="0.9"/>
+        <text x="121" y="27" text-anchor="middle" class="font-title font-mono" font-size="13" font-weight="900" fill="#ffffff">🏺 3D HERITAGE TECH</text>
+        
+        <!-- Card Icon & Title -->
+        <text x="20" y="70" class="font-title" font-size="16" fill="#ffffff">🏺 慧眼识瓷 3D 展馆</text>
+        <text x="20" y="90" class="font-sub font-mono" font-size="11" fill="#38bdf8">Memories of Chinese Porcelain</text>
+        
+        <!-- Badges Row -->
+        <g transform="translate(20, 102)">
+          <rect width="96" height="18" rx="9" ry="9" fill="#0c2e3d"/>
+          <text x="48" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#38bdf8">Three.js / WebGL</text>
+          
+          <rect x="102" y="0" width="100" height="18" rx="9" ry="9" fill="#192a3e"/>
+          <text x="152" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#60a5fa">宋代官瓷数字化</text>
+        </g>
+
+        <!-- Description -->
+        <text x="20" y="138" class="font-body" font-size="11.5" fill="#cbd5e1">
+          • 360° 交互审视三维宋瓷数字藏品
+        </text>
+        <text x="20" y="156" class="font-body" font-size="11.5" fill="#cbd5e1">
+          • AI 识瓷技术与水墨长卷融合
+        </text>
+        <text x="20" y="174" class="font-body" font-size="11.5" fill="#cbd5e1">
+          • 开封千年官瓷非遗文化传承
+        </text>
+        <text x="20" y="192" class="font-sub" font-size="11.5" fill="#bae6fd">
+          • 团队项目 · WebGL 沉浸交互
+        </text>
+
+        <!-- Stars / Status Pill -->
+        <g transform="translate(20, 206)">
+          <rect width="202" height="20" rx="6" ry="6" fill="#1e1333"/>
+          <text x="101" y="14" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#38bdf8">⭐ 6 Stars · 3D 在线展馆</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== 4. COMPETITIONS & HONORS (y: 710 ~ 890) ==================== -->
+  <g transform="translate(40, 710)">
+    <!-- Section Title Bar -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="16" class="font-title" font-size="18" fill="#ffffff">
+        🏆 <tspan fill="url(#gold-amber)">竞赛荣誉与斩获勋章</tspan> <tspan font-size="13" font-family="sans-serif" fill="#94a3b8" font-weight="400">(Honor &amp; Achievements)</tspan>
+      </text>
+      <line x1="0" y1="26" x2="760" y2="26" stroke="#332454" stroke-width="1"/>
+      <line x1="0" y1="26" x2="210" y2="26" stroke="url(#gold-amber)" stroke-width="2.5"/>
+    </g>
+
+    <!-- 3 Medals Row -->
+    <g transform="translate(0, 42)">
+      <!-- Medal 1: 蓝桥杯 -->
+      <g transform="translate(0, 0)">
+        <rect width="242" height="115" rx="14" ry="14" fill="url(#card-bg)" stroke="#94a3b8" stroke-width="1.4" filter="url(#card-shadow)"/>
+        <!-- Silver Emblem Ring -->
+        <g transform="translate(20, 20)">
+          <circle cx="20" cy="20" r="20" fill="#334155" stroke="#cbd5e1" stroke-width="2"/>
+          <text x="20" y="27" text-anchor="middle" font-size="18">🥈</text>
+        </g>
+        <g transform="translate(70, 22)">
+          <text x="0" y="16" class="font-title" font-size="14.5" fill="#f1f5f9">蓝桥杯全国软件大赛</text>
+          <text x="0" y="36" class="font-sub font-mono" font-size="12" fill="#cbd5e1">C++ 软件类 · 省级二等奖</text>
+          <rect x="0" y="46" width="152" height="18" rx="4" ry="4" fill="#1e293b"/>
+          <text x="76" y="59" text-anchor="middle" class="font-mono" font-size="10" fill="#94a3b8">2026 第十七届全国大赛</text>
+        </g>
+      </g>
+
+      <!-- Medal 2: 计算机设计大赛 -->
+      <g transform="translate(259, 0)">
+        <rect width="242" height="115" rx="14" ry="14" fill="url(#card-bg)" stroke="#fda085" stroke-width="1.4" filter="url(#card-shadow)"/>
+        <!-- Bronze Emblem Ring -->
+        <g transform="translate(20, 20)">
+          <circle cx="20" cy="20" r="20" fill="#43281c" stroke="#fda085" stroke-width="2"/>
+          <text x="20" y="27" text-anchor="middle" font-size="18">🥉</text>
+        </g>
+        <g transform="translate(70, 22)">
+          <text x="0" y="16" class="font-title" font-size="14.5" fill="#ffedd5">中国大学生计算机设计大赛</text>
+          <text x="0" y="36" class="font-sub font-mono" font-size="12" fill="#fdba74">数媒动漫赛道 · 省三 / 校二</text>
+          <rect x="0" y="46" width="152" height="18" rx="4" ry="4" fill="#341b12"/>
+          <text x="76" y="59" text-anchor="middle" class="font-mono" font-size="10" fill="#fed7aa">2026 全国高校 A 类竞赛</text>
+        </g>
+      </g>
+
+      <!-- Medal 3: 机器人与AI大赛 -->
+      <g transform="translate(518, 0)">
+        <rect width="242" height="115" rx="14" ry="14" fill="url(#card-bg)" stroke="#fbbf24" stroke-width="1.4" filter="url(#card-shadow)"/>
+        <!-- Gold Emblem Ring -->
+        <g transform="translate(20, 20)">
+          <circle cx="20" cy="20" r="20" fill="#3f2d12" stroke="#fbbf24" stroke-width="2"/>
+          <text x="20" y="27" text-anchor="middle" font-size="18">🏅</text>
+        </g>
+        <g transform="translate(70, 22)">
+          <text x="0" y="16" class="font-title" font-size="14.5" fill="#fef3c7">中国机器人及人工智能大赛</text>
+          <text x="0" y="36" class="font-sub font-mono" font-size="12" fill="#fde047">创新赛道 · 省赛优秀奖</text>
+          <rect x="0" y="46" width="152" height="18" rx="4" ry="4" fill="#32240b"/>
+          <text x="76" y="59" text-anchor="middle" class="font-mono" font-size="10" fill="#fef08a">2026 前沿智能竞技</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== 5. TECH ARSENAL / 技能矩阵 (y: 900 ~ 1160) ==================== -->
+  <g transform="translate(40, 900)">
+    <!-- Section Title Bar -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="16" class="font-title" font-size="18" fill="#ffffff">
+        🔮 <tspan fill="url(#violet-pink)">魔导兵装库 · 技术栈矩阵</tspan> <tspan font-size="13" font-family="sans-serif" fill="#94a3b8" font-weight="400">(Tech Arsenal &amp; Ecosystem)</tspan>
+      </text>
+      <line x1="0" y1="26" x2="760" y2="26" stroke="#332454" stroke-width="1"/>
+      <line x1="0" y1="26" x2="240" y2="26" stroke="url(#violet-pink)" stroke-width="2.5"/>
+    </g>
+
+    <!-- 4 Categorized Panels Grid (2x2) -->
+    <g transform="translate(0, 42)">
+      <!-- Panel 1: Agentic AI 智能体体系 -->
+      <g transform="translate(0, 0)">
+        <rect width="368" height="98" rx="14" ry="14" fill="url(#card-bg)" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.6"/>
+        <text x="18" y="26" class="font-title" font-size="14" fill="#e9d5ff">🤖 前沿 AI 与 Agent 体系 (核心阵地)</text>
+        <g transform="translate(18, 38)">
+          <text x="0" y="18" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
+            • <tspan fill="#c084fc" font-weight="700">Google Antigravity (反重力)</tspan> · OpenAI Codex
+          </text>
+          <text x="0" y="38" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
+            • MCP 协议生态 · Multi-Agent Swarm 多智能体协同
+          </text>
+        </g>
+      </g>
+
+      <!-- Panel 2: 渲染引擎与视觉美学 -->
+      <g transform="translate(392, 0)">
+        <rect width="368" height="98" rx="14" ry="14" fill="url(#card-bg)" stroke="#ff758c" stroke-width="1.2" stroke-opacity="0.6"/>
+        <text x="18" y="26" class="font-title" font-size="14" fill="#fecdd3">🎨 图形渲染与二次元交互美学</text>
+        <g transform="translate(18, 38)">
+          <text x="0" y="18" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
+            • <tspan fill="#ff758c" font-weight="700">Live2D Cubism SDK (2/4/5)</tspan> · Electron 桌面容器
+          </text>
+          <text x="0" y="38" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
+            • Three.js (WebGL) 3D 展馆 · HTML5 Canvas 粒子引擎
+          </text>
+        </g>
+      </g>
+
+      <!-- Panel 3: 核心编程语言 -->
+      <g transform="translate(0, 112)">
+        <rect width="368" height="98" rx="14" ry="14" fill="url(#card-bg)" stroke="#00f2fe" stroke-width="1.2" stroke-opacity="0.6"/>
+        <text x="18" y="26" class="font-title" font-size="14" fill="#bae6fd">💻 核心编程语言与底层能力</text>
+        <g transform="translate(18, 38)">
+          <text x="0" y="18" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
+            • <tspan fill="#38bdf8" font-weight="700">C / C++ (C++17 现代语法)</tspan> · 算法与数据结构
+          </text>
+          <text x="0" y="38" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
+            • JavaScript (ES6+) / TypeScript · Python 数据接口
+          </text>
+        </g>
+      </g>
+
+      <!-- Panel 4: AIGC 多媒体与工程化 -->
+      <g transform="translate(392, 112)">
+        <rect width="368" height="98" rx="14" ry="14" fill="url(#card-bg)" stroke="#fda085" stroke-width="1.2" stroke-opacity="0.6"/>
+        <text x="18" y="26" class="font-title" font-size="14" fill="#ffedd5">🎬 AIGC 视觉与系统工程化</text>
+        <g transform="translate(18, 38)">
+          <text x="0" y="18" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
+            • 可灵 (Kling) / Seedance AI 视频 · ComfyUI 工作流
+          </text>
+          <text x="0" y="38" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
+            • Adobe PR / AE 剪辑 · Git 协同 · Ollama 本地模型
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== 6. REALM FOOTER & AURORA WAVES (y: 1190 ~ 1540) ==================== -->
+  <g transform="translate(0, 1260)">
+    <!-- Flowing Wave 1 (Back Layer) -->
+    <path class="anim-wave2" fill="url(#wave-grad-1)" d="M 0,90 Q 210,50 420,90 T 840,90 T 1260,90 T 1680,90 L 1680,300 L 0,300 Z"/>
+    
+    <!-- Flowing Wave 2 (Front Layer) -->
+    <path class="anim-wave1" fill="url(#wave-grad-2)" d="M 0,120 Q 210,160 420,120 T 840,120 T 1260,120 T 1680,120 L 1680,300 L 0,300 Z"/>
+
+    <!-- Romantic Signoff Content Card -->
+    <g transform="translate(40, 40)">
+      <rect width="760" height="150" rx="18" ry="18" fill="url(#card-bg)" stroke="url(#sakura-grad)" stroke-width="1.4" filter="url(#card-shadow)"/>
+      
+      <!-- Anime Chibi Star Icon -->
+      <g transform="translate(380, 32)" class="anim-heart">
+        <circle cx="0" cy="0" r="18" fill="url(#sakura-grad)" opacity="0.3" filter="url(#sakura-glow)"/>
+        <text x="0" y="6" text-anchor="middle" font-size="18">🌸</text>
+      </g>
+
+      <!-- Romantic Motto -->
+      <text x="380" y="74" text-anchor="middle" class="font-title font-sub" font-size="17" fill="#ffffff" letter-spacing="1">
+        「保持好奇，持续动手，在热爱中构建细节。」
+      </text>
+
+      <text x="380" y="100" text-anchor="middle" class="font-sub font-mono" font-size="12.5" fill="#f472b6" letter-spacing="0.5">
+        ✦ Breathing life into code, creating digital companions with warmth ✦
+      </text>
+
+      <!-- Copyright & Location Stamp -->
+      <g transform="translate(380, 126)">
+        <text x="0" y="0" text-anchor="middle" class="font-mono font-body" font-size="11" fill="#94a3b8">
+          Henan University · Software College · Designed with ♥ &amp; Google Antigravity
+        </text>
+      </g>
+    </g>
+  </g>
+
+</svg>
