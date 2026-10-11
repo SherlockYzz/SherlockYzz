@@ -1,7 +1,7 @@
 ﻿<!-- 
   ==============================================================
   🌸 于子倬 (SherlockYzz) · 个人主页
-  河南大学软件学院 · 喜欢二次元与写代码的普通学生
+  河南大学软件学院 · 探寻算法逻辑与二次元交互美学的交汇处
   ==============================================================
 -->
 
@@ -11,23 +11,25 @@
 
 ---
 
-### 👋 你好呀，欢迎来到我的小站！
+### 🌸 见字如晤 (Greetings)
 
-我是**于子倬（SherlockYzz）**，现就读于**河南大学软件学院**。
+你好，我是**于子倬（SherlockYzz）**，现就读于**河南大学软件学院**。
 
-平时是个重度二次元爱好者，也是个喜欢把脑海里的奇思妙想一点点敲成代码的学生程序员。写《AI二次元桌宠》是因为自己平时自习、敲代码时容易觉得孤独无聊，就想给自己的电脑桌面安一个小陪伴；做国风项目也是因为觉得传统文化配上现代交互挺酷的。
+一名热衷于探索 **Agentic AI 智能体工程范式** 与 **多模态交互渲染美学** 的学生开发者。平时喜好研读系统底层机制与图形技术，亦钟情于二次元文化的细腻情感叙事与东方传统节令美学，尝试将理性严谨的代码逻辑，化作方寸屏幕间生动、有温度的交互造物：
 
-如果你也喜欢二次元、或者对智能体和图形动效感兴趣，随时欢迎找我聊天交流，或者给我的小项目提个 Issue / PR！✨
+* 🤖 **智能体工程实践**：以 Google Antigravity 与 OpenAI Codex 为核心中枢，研习 MCP（Model Context Protocol）工具规范，实践多智能体协作（Multi-Agent Swarm）与推理链路编排；
+* 🎀 **视效与图形渲染**：基于 Live2D Cubism 原生 SDK 雕琢细腻的二次元桌面伴侣，并借助 Three.js / WebGL 搭建三维数字化文化展馆；
+* 💻 **系统与全栈根基**：以 C/C++(C++17) 筑牢内存管理与算法功底，日常使用 JavaScript/TypeScript 构筑现代应用，辅以 Python 进行数据接口与多模态模型流转。
 
 ---
 
-### 🌸 核心项目直接体验 (Direct Links & Demos)
+### 🌸 核心项目实践录 (Selected Works & Demos)
 
 <table>
   <tr>
     <td width="33%" align="center">
       <b>🦊 <a href="https://github.com/SherlockYzz/anime-desktop-pet">AI 二次元桌宠 (Desktop Pet)</a></b><br>
-      <sub>9大角色全阵容 · 考据十阶羁绊 · 中英双版本</sub><br><br>
+      <sub>九大角色全阵容 · 公式书考据 · 中英双轨</sub><br><br>
       <a href="https://github.com/SherlockYzz/anime-desktop-pet/releases/tag/v07.21"><img src="https://img.shields.io/badge/Release-v07.21%20%E5%8F%8C%E7%89%88%E6%9C%AC-ff758c?style=flat-square" alt="Release"></a>
       <a href="https://github.com/SherlockYzz/anime-desktop-pet"><img src="https://img.shields.io/badge/Star-⭐%209-ffd700?style=flat-square" alt="Stars"></a>
     </td>
@@ -48,14 +50,14 @@
 
 ---
 
-### 📖 平时和同学一起折腾的其他小实践
+### 📖 拓展实践与团队协作积累 (More Practices)
 
-* 🏯 **开封府智慧景区微信小程序** [团队项目 · 私有维护 🔒]  
-  和团队一起为开封府做的数字化服务系统。深度参与了小程序端研发：高精度手绘智慧地图分类标注、GPS 定位与最短游览路线规划算法、全天节目演出倒计时流转、基于 Dify 的 AI 智能伴游与互动式剧情推理「开封府断案」模块。
+* 🏯 **开封府智慧景区微信小程序** [团队协作 · 数字化服务系统 🔒]  
+  参与开封府官方智慧景区服务系统研发，负责小程序端核心链路：设计高精度手绘智慧地图分类标注体系，实现用户定位与最短游览路线规划算法；实现全天节目演出时间轴流转倒计时；对接 Dify 智能体工作流提供全天候景点典故咨询，并参与互动式剧情推理「开封府断案」模块研发。
 * 📚 [**校园开源学习资料知识库 (HENU Review Kit)**](https://github.com/SherlockYzz/HENU-Final-Review)  
-  期末备考时和同学一起整理的复习知识库，汇总了 C/C++ 程序设计、Web 编程基础、数据结构及高等数学期末解题思路，希望能帮到同校的学弟学妹们。
+  与同学携手共建的校园开源知识库，系统化整理 C/C++ 程序设计、Web 编程基础、数据结构及高等数学期末备考思维导图与核心题型解析，供同窗互勉共进。
 * 📐 [**常微分方程（ODE）知识梳理与题型总结**](https://github.com/SherlockYzz/Self-summary-of-Differential-Equations)  
-  自己复习高数和考研常微分方程时做的方法笔记，附带离线 MathJax 高清公式排版版。
+  梳理高等数学与考研常微分方程方法笔记，附带离线 MathJax 高清排版公式体系。
 
 ---
 
