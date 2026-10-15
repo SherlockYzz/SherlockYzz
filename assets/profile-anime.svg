@@ -313,7 +313,7 @@
       <g transform="translate(362, 4)">
         <rect width="202" height="26" rx="13" ry="13" fill="#142334" stroke="#00f2fe" stroke-width="1.2" filter="url(#soft-glow)" opacity="0.95"/>
         <circle cx="16" cy="13" r="4.5" fill="#00f2fe" class="anim-heart"/>
-        <text x="31" y="17" class="font-sub font-mono" font-size="11" fill="#bae6fd">🍵 研磨交互 · 探索智能体</text>
+        <text x="31" y="17" class="font-sub font-mono" font-size="11" fill="#bae6fd">✨ 技术探索 · AIGC 创作</text>
       </g>
 
       <!-- Subtitle Tagline (Cultured & Scholarly) -->
@@ -325,15 +325,15 @@
       <g transform="translate(0, 80)">
         <!-- Tag 1 -->
         <rect x="0" y="0" width="138" height="25" rx="12.5" ry="12.5" fill="#24163f" stroke="#c084fc" stroke-width="1.2"/>
-        <text x="69" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#e9d5ff">✨ 智能体协同架构</text>
+        <text x="69" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#e9d5ff">🤖 多模态应用架构</text>
 
         <!-- Tag 2 -->
         <rect x="146" y="0" width="130" height="25" rx="12.5" ry="12.5" fill="#3c1324" stroke="#ff3366" stroke-width="1.2"/>
-        <text x="211" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#fecdd3">🎀 Live2D 伴侣引擎</text>
+        <text x="211" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#fecdd3">🎬 AI 漫剧 · 游戏交互</text>
 
         <!-- Tag 3 -->
         <rect x="284" y="0" width="138" height="25" rx="12.5" ry="12.5" fill="#102636" stroke="#00f2fe" stroke-width="1.2"/>
-        <text x="353" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#bae6fd">💻 C++17 现代底层渲染</text>
+        <text x="353" y="17" text-anchor="middle" class="font-sub font-mono" font-size="11" fill="#bae6fd">💻 C/C++ 算法与系统</text>
 
         <!-- Tag 4 -->
         <rect x="430" y="0" width="124" height="25" rx="12.5" ry="12.5" fill="#321e10" stroke="#f59e0b" stroke-width="1.2"/>
@@ -375,8 +375,8 @@
       <!-- Item 2 -->
       <g transform="translate(181, 0)">
         <rect width="168" height="42" rx="10" ry="10" fill="url(#card-inner)" stroke="#c084fc" stroke-width="1.1" stroke-opacity="0.5"/>
-        <text x="14" y="18" class="font-sub" font-size="11" fill="#e9d5ff">🤖 智能体协同编排</text>
-        <text x="14" y="34" class="font-title font-mono" font-size="12.5" fill="#ffffff">Antigravity · MCP 协议</text>
+        <text x="14" y="18" class="font-sub" font-size="11" fill="#e9d5ff">🤖 多模态与 AI 生成</text>
+        <text x="14" y="34" class="font-title font-mono" font-size="12.5" fill="#ffffff">Multimodal · AIGC 管线</text>
         <circle cx="150" cy="21" r="3.5" fill="#c084fc" class="anim-heart"/>
       </g>
 
@@ -391,8 +391,8 @@
       <!-- Item 4 -->
       <g transform="translate(544, 0)">
         <rect width="168" height="42" rx="10" ry="10" fill="url(#card-inner)" stroke="#f59e0b" stroke-width="1.1" stroke-opacity="0.5"/>
-        <text x="14" y="18" class="font-sub" font-size="11" fill="#fde68a">📦 客户端交付体系</text>
-        <text x="14" y="34" class="font-title font-mono" font-size="12.5" fill="#ffffff">Electron 跨平台发行</text>
+        <text x="14" y="18" class="font-sub" font-size="11" fill="#fde68a">📦 游戏制作与人机交互</text>
+        <text x="14" y="34" class="font-title font-mono" font-size="12.5" fill="#ffffff">Game Dev · HCI 探索</text>
         <circle cx="150" cy="21" r="3.5" fill="#f59e0b" class="anim-heart"/>
       </g>
     </g>
@@ -415,7 +415,7 @@
       <g transform="translate(0, 0)">
         <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#ff3366" stroke-width="1.6" filter="url(#card-shadow)"/>
         <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,40 L 0,40 Z" fill="url(#neon-sakura)" opacity="0.95"/>
-        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 情感交互桌面伴侣 ✦</text>
+        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 智能交互工程标杆 ✦</text>
         
         <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🦊 AI 二次元桌宠</text>
         <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#f472b6">九大角色 · 考据十阶羁绊</text>
@@ -435,7 +435,7 @@
           • 轻量化羁绊胶囊注入，直觉秒回流式响应
         </text>
         <text x="20" y="172" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 集成番茄钟与硬件监视，兼济温情与实用
+          • 集成番茄钟与系统监控，兼具性能与实用
         </text>
         <text x="20" y="190" class="font-sub" font-size="11.5" fill="#fbcfe8">
           • 独立构建英文向导，实现中英双轨发布
@@ -597,13 +597,13 @@
       <!-- Panel 1: AI & Agents -->
       <g transform="translate(0, 0)">
         <rect width="368" height="96" rx="14" ry="14" fill="url(#card-bg)" stroke="#a855f7" stroke-width="1.3" stroke-opacity="0.6"/>
-        <text x="18" y="25" class="font-title" font-size="13.5" fill="#e9d5ff">🤖 智能体中枢工程 (Agentic AI)</text>
+        <text x="18" y="25" class="font-title" font-size="13.5" fill="#e9d5ff">🤖 多模态与前沿生成 (Multimodal &amp; AI)</text>
         <g transform="translate(18, 38)">
           <text x="0" y="17" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
-            • 借助 <tspan fill="#c084fc" font-weight="700">Antigravity</tspan> 与 Codex 构筑多智能体协同流水线
+            • 聚焦 <tspan fill="#c084fc" font-weight="700">多模态模型流转</tspan> 与 Prompt 架构，研习 MCP 工具规范
           </text>
           <text x="0" y="37" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
-            • 实践 MCP 协议规范，探索思维链上下文推理工程
+            • 深入探索机器学习与深度学习理论底座，打通开源模型管线
           </text>
         </g>
       </g>
@@ -614,7 +614,7 @@
         <text x="18" y="25" class="font-title" font-size="13.5" fill="#fecdd3">🎨 图形渲染与数字美学 (Graphics)</text>
         <g transform="translate(18, 38)">
           <text x="0" y="17" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
-            • 运用 <tspan fill="#ff3366" font-weight="700">Live2D Cubism SDK</tspan> 与 Electron 雕琢原生桌面形态
+            • 运用 <tspan fill="#ff3366" font-weight="700">Live2D Cubism SDK</tspan> 与 Electron 构筑流畅桌面交互
           </text>
           <text x="0" y="37" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
             • 驾驭 Three.js (WebGL) 架构三维空间与 Canvas 粒子
@@ -642,10 +642,10 @@
         <text x="18" y="25" class="font-title" font-size="13.5" fill="#ffedd5">🎬 视听后期与工序流转 (Media &amp; Tools)</text>
         <g transform="translate(18, 38)">
           <text x="0" y="17" class="font-body font-mono" font-size="11.5" fill="#f1f5f9">
-            • 熟练运用 PR、AE 操刀影视级剪辑与镜头语言呈现
+            • 熟练运用 PR、AE 进行日常视频剪辑与视觉特效呈现
           </text>
           <text x="0" y="37" class="font-body font-mono" font-size="11.5" fill="#cbd5e1">
-            • 紧跟 Kling 与 ComfyUI 工作流，让技术服务于艺术表达
+            • 搭建 ComfyUI / SD 本地生图管线，探索 AI 漫剧视听合成
           </text>
         </g>
       </g>
@@ -675,17 +675,17 @@
 
       <!-- Cultured Motto -->
       <text x="380" y="68" text-anchor="middle" class="font-title font-sub" font-size="16.5" fill="#ffffff" letter-spacing="0.8">
-        「保持好奇，持续动手，在热爱中构建细节。」
+        「我们生而眺望，自星海尽处回响！」
       </text>
 
       <text x="380" y="94" text-anchor="middle" class="font-sub" font-size="12.5" fill="#fbcfe8" letter-spacing="0.4">
-        愿以理性之逻辑，赋数字世界以温润之生机。
+        「这一切都是命运石之门的选择。El Psy Congroo！」
       </text>
 
       <!-- Copyright & University -->
       <g transform="translate(380, 118)">
         <text x="0" y="0" text-anchor="middle" class="font-mono font-body" font-size="11" fill="#94a3b8">
-          河南大学软件学院 · SherlockYzz (折木柯南) · 幸得识卿，与君共勉 🌸
+          河南大学软件学院 · SherlockYzz (折木柯南) · 探索技术与二次元美学 🌸
         </text>
       </g>
     </g>
