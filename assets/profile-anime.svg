@@ -37,20 +37,58 @@
 
     <!-- Card Glass Borders & Backgrounds -->
     <linearGradient id="card-border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff3366" stop-opacity="0.65"/>
-      <stop offset="30%" stop-color="#a855f7" stop-opacity="0.4"/>
-      <stop offset="65%" stop-color="#00f2fe" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#ff6699" stop-opacity="0.7"/>
+      <stop offset="0%" stop-color="#ff4d79" stop-opacity="0.72"/>
+      <stop offset="35%" stop-color="#a855f7" stop-opacity="0.48"/>
+      <stop offset="70%" stop-color="#00f2fe" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#ff7597" stop-opacity="0.78"/>
     </linearGradient>
 
     <linearGradient id="card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1c1332" stop-opacity="0.82"/>
-      <stop offset="100%" stop-color="#120c22" stop-opacity="0.92"/>
+      <stop offset="0%" stop-color="#20163b" stop-opacity="0.88"/>
+      <stop offset="55%" stop-color="#160f2b" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0f0a1e" stop-opacity="0.96"/>
     </linearGradient>
 
     <linearGradient id="card-inner" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2a1b48" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#170f2b" stop-opacity="0.75"/>
+      <stop offset="0%" stop-color="#2d1e52" stop-opacity="0.68"/>
+      <stop offset="100%" stop-color="#17102c" stop-opacity="0.82"/>
+    </linearGradient>
+
+    <!-- Specular Glass Top Highlight & Sheen -->
+    <linearGradient id="glass-top-edge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="75%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="card-sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Cyber Subtle Dot Matrix Pattern -->
+    <pattern id="cyber-dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.9" fill="#c084fc" opacity="0.14"/>
+    </pattern>
+
+    <!-- Medal Metallic Gradients -->
+    <linearGradient id="medal-silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="medal-bronze" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="50%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="medal-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fde047"/>
     </linearGradient>
 
     <!-- Glowing Energy Progress Fill -->
@@ -235,13 +273,23 @@
   </style>
 
   <!-- ==================== BACKGROUND CANVAS ==================== -->
-  <rect width="840" height="1540" rx="22" ry="22" fill="url(#bg-grad)"/>
+  <rect width="840" height="1540" rx="24" ry="24" fill="url(#bg-grad)"/>
+  <rect width="840" height="1540" rx="24" ry="24" fill="url(#cyber-dot-grid)"/>
+  <!-- Outer Luminous Frame -->
+  <rect x="1" y="1" width="838" height="1538" rx="23" ry="23" fill="none" stroke="url(#card-border-glow)" stroke-width="1.2" opacity="0.55"/>
+
+  <!-- Subtle Orbital Arcs -->
+  <g fill="none" stroke-linecap="round" opacity="0.16">
+    <ellipse cx="420" cy="140" rx="460" ry="130" stroke="url(#neon-aurora)" stroke-width="1" stroke-dasharray="6 10"/>
+    <ellipse cx="420" cy="640" rx="490" ry="210" stroke="url(#neon-sakura)" stroke-width="0.9" stroke-dasharray="4 12"/>
+    <ellipse cx="420" cy="1160" rx="470" ry="180" stroke="url(#neon-violet)" stroke-width="0.9" stroke-dasharray="8 10"/>
+  </g>
 
   <!-- Ambient Radiant Nebula Glows -->
-  <circle cx="160" cy="160" r="190" fill="#ff3366" opacity="0.14" filter="blur(70px)"/>
-  <circle cx="720" cy="280" r="230" fill="#a855f7" opacity="0.14" filter="blur(75px)"/>
-  <circle cx="200" cy="840" r="240" fill="#00f2fe" opacity="0.1" filter="blur(80px)"/>
-  <circle cx="680" cy="1180" r="210" fill="#ff6699" opacity="0.12" filter="blur(70px)"/>
+  <circle cx="150" cy="150" r="210" fill="#ff3366" opacity="0.16" filter="blur(75px)"/>
+  <circle cx="720" cy="270" r="240" fill="#a855f7" opacity="0.16" filter="blur(80px)"/>
+  <circle cx="180" cy="820" r="250" fill="#00f2fe" opacity="0.12" filter="blur(85px)"/>
+  <circle cx="690" cy="1180" r="220" fill="#ff6699" opacity="0.14" filter="blur(75px)"/>
 
   <!-- Minimalist Star Field -->
   <g opacity="0.22" fill="#ffffff">
@@ -274,8 +322,15 @@
 
   <!-- ==================== 1. HERO HEADER WITH RUOXI AVATAR (y: 35 ~ 220) ==================== -->
   <g transform="translate(40, 35)">
-    <!-- Header Outer Card with Glowing Border -->
-    <rect width="760" height="175" rx="20" ry="20" fill="url(#card-bg)" stroke="url(#card-border-glow)" stroke-width="1.8" filter="url(#card-shadow)" class="anim-border-breathe"/>
+    <!-- Header Outer Card with Glowing Border & Glass Specular Sheen -->
+    <rect width="760" height="175" rx="22" ry="22" fill="url(#card-bg)" stroke="url(#card-border-glow)" stroke-width="1.8" filter="url(#card-shadow)" class="anim-border-breathe"/>
+    <rect width="760" height="175" rx="22" ry="22" fill="url(#card-sheen)"/>
+    <line x1="36" y1="1.5" x2="724" y2="1.5" stroke="url(#glass-top-edge)" stroke-width="1.4"/>
+    <!-- Decorative HUD Corner Brackets -->
+    <path d="M 14,30 L 14,14 L 30,14" fill="none" stroke="#ff6699" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 730,14 L 746,14 L 746,30" fill="none" stroke="#00f2fe" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 14,145 L 14,161 L 30,161" fill="none" stroke="#00f2fe" stroke-width="1.6" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 730,161 L 746,161 L 746,145" fill="none" stroke="#c084fc" stroke-width="1.6" stroke-linecap="round" opacity="0.5"/>
     
     <!-- Real Anime Mascot Avatar (Ruoxi - High Res Embedded) -->
     <g transform="translate(26, 20)" class="anim-float">
@@ -344,7 +399,9 @@
 
   <!-- ==================== 2. PHILOSOPHY & SYSTEM PRACTICE (y: 235 ~ 385) ==================== -->
   <g transform="translate(40, 235)">
-    <rect width="760" height="135" rx="18" ry="18" fill="url(#card-bg)" stroke="url(#card-border-glow)" stroke-width="1.4" filter="url(#card-shadow)"/>
+    <rect width="760" height="135" rx="20" ry="20" fill="url(#card-bg)" stroke="url(#card-border-glow)" stroke-width="1.3" filter="url(#card-shadow)"/>
+    <rect width="760" height="135" rx="20" ry="20" fill="url(#card-sheen)"/>
+    <line x1="36" y1="1.2" x2="724" y2="1.2" stroke="url(#glass-top-edge)" stroke-width="1.2"/>
 
     <!-- Section Header (Intellectual & Cultured) -->
     <g transform="translate(24, 22)">
@@ -409,113 +466,95 @@
       <line x1="0" y1="26" x2="220" y2="26" stroke="url(#neon-sakura)" stroke-width="2.8"/>
     </g>
 
-    <!-- 3 Project Cards Grid (Cultured & Technically Sophisticated) -->
+    <!-- 3 Project Cards Grid (Refined Glassmorphism & Clean Typography) -->
     <g transform="translate(0, 42)">
       <!-- Card 1: AI 二次元桌宠 v8.1.0 -->
       <g transform="translate(0, 0)">
-        <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#ff3366" stroke-width="1.6" filter="url(#card-shadow)"/>
-        <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,40 L 0,40 Z" fill="url(#neon-sakura)" opacity="0.95"/>
-        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 三引擎桌面交互标杆 ✦</text>
+        <rect width="242" height="238" rx="18" ry="18" fill="url(#card-bg)" stroke="#ff4d79" stroke-width="1.5" filter="url(#card-shadow)"/>
+        <rect width="242" height="238" rx="18" ry="18" fill="url(#card-sheen)"/>
+        <path d="M 0,18 Q 0,0 18,0 L 224,0 Q 242,0 242,18 L 242,38 L 0,38 Z" fill="url(#neon-sakura)" opacity="0.94"/>
+        <line x1="20" y1="1.2" x2="222" y2="1.2" stroke="url(#glass-top-edge)" stroke-width="1.2"/>
+        <text x="121" y="24" text-anchor="middle" class="font-title font-mono" font-size="11.5" font-weight="700" fill="#ffffff" letter-spacing="0.4">✦ 三引擎桌面交互标杆 ✦</text>
         
-        <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🦊 AI 二次元桌宠</text>
-        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#f472b6">九大零 OOC 角色 · 十阶羁绊</text>
+        <text x="18" y="66" class="font-title" font-size="15.5" fill="#ffffff">🦊 AI 二次元桌宠</text>
+        <text x="18" y="85" class="font-sub font-mono" font-size="10.5" fill="#f472b6">九大零 OOC 角色 · 十阶羁绊</text>
         
-        <g transform="translate(20, 100)">
-          <rect width="98" height="18" rx="9" ry="9" fill="#38152c"/>
-          <text x="49" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#ff7eb3">Live2D + 3D VRM</text>
+        <g transform="translate(18, 97)">
+          <rect width="100" height="19" rx="9.5" ry="9.5" fill="#3a142d" stroke="#ff6699" stroke-width="0.7" stroke-opacity="0.5"/>
+          <text x="50" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#ff94c2">Live2D + 3D VRM</text>
           
-          <rect x="104" y="0" width="98" height="18" rx="9" ry="9" fill="#122b3d"/>
-          <text x="153" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">133 段原生 CV</text>
+          <rect x="106" y="0" width="100" height="19" rx="9.5" ry="9.5" fill="#10293b" stroke="#00f2fe" stroke-width="0.7" stroke-opacity="0.5"/>
+          <text x="156" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#38bdf8">133 段原生 CV</text>
         </g>
 
-        <text x="20" y="136" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • Live2D/VRM/精灵表三引擎像素穿透
-        </text>
-        <text x="20" y="154" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 12 大模型流式对话与 17 语言沙箱
-        </text>
-        <text x="20" y="172" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 10 款摸鱼街机(含霓虹贪吃蛇)+BGM
-        </text>
-        <text x="20" y="190" class="font-sub" font-size="11.5" fill="#fbcfe8">
-          • Electron 28 构建，中英双轨安装包
-        </text>
+        <text x="18" y="135" class="font-body" font-size="11" fill="#e2e8f0">• 三引擎渲染与像素级透明穿透</text>
+        <text x="18" y="153" class="font-body" font-size="11" fill="#cbd5e1">• 12 大模型对话 + 17 语言沙箱</text>
+        <text x="18" y="171" class="font-body" font-size="11" fill="#cbd5e1">• 10 款摸鱼街机(含霓虹贪吃蛇)</text>
+        <text x="18" y="189" class="font-sub" font-size="11" fill="#fbcfe8">• Electron 28 中英双轨安装包</text>
 
-        <g transform="translate(20, 204)">
-          <rect width="202" height="21" rx="6" ry="6" fill="#1b122e" stroke="#ff3366" stroke-width="0.8"/>
-          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#fbbf24">⭐ 10 Stars · v8.1.0 正式版</text>
+        <g transform="translate(18, 204)">
+          <rect width="206" height="22" rx="11" ry="11" fill="#23122d" stroke="#ff4d79" stroke-width="0.9"/>
+          <text x="103" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#fde047">⭐ 10 Stars · v8.1.0 正式版</text>
         </g>
       </g>
 
       <!-- Card 2: Cyber-Hajimi 赛博养Gemini -->
       <g transform="translate(259, 0)">
-        <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#a855f7" stroke-width="1.5" filter="url(#card-shadow)"/>
-        <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,40 L 0,40 Z" fill="url(#neon-violet)" opacity="0.9"/>
-        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 多模态开源伴生代理 ✦</text>
+        <rect width="242" height="238" rx="18" ry="18" fill="url(#card-bg)" stroke="#a855f7" stroke-width="1.5" filter="url(#card-shadow)"/>
+        <rect width="242" height="238" rx="18" ry="18" fill="url(#card-sheen)"/>
+        <path d="M 0,18 Q 0,0 18,0 L 224,0 Q 242,0 242,18 L 242,38 L 0,38 Z" fill="url(#neon-violet)" opacity="0.94"/>
+        <line x1="20" y1="1.2" x2="222" y2="1.2" stroke="url(#glass-top-edge)" stroke-width="1.2"/>
+        <text x="121" y="24" text-anchor="middle" class="font-title font-mono" font-size="11.5" font-weight="700" fill="#ffffff" letter-spacing="0.4">✦ 多模态开源伴生代理 ✦</text>
         
-        <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🐾 赛博养Gemini</text>
-        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#c084fc">Cyber-Hajimi · 零成本驱动</text>
+        <text x="18" y="66" class="font-title" font-size="15.5" fill="#ffffff">🐾 赛博养Gemini</text>
+        <text x="18" y="85" class="font-sub font-mono" font-size="10.5" fill="#c084fc">Cyber-Hajimi · 零成本驱动</text>
         
-        <g transform="translate(20, 100)">
-          <rect width="98" height="18" rx="9" ry="9" fill="#2d1338"/>
-          <text x="49" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#e879f9">动态 WBI 防爬</text>
+        <g transform="translate(18, 97)">
+          <rect width="100" height="19" rx="9.5" ry="9.5" fill="#2d133a" stroke="#c084fc" stroke-width="0.7" stroke-opacity="0.5"/>
+          <text x="50" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#e879f9">动态 WBI 防爬</text>
           
-          <rect x="104" y="0" width="98" height="18" rx="9" ry="9" fill="#1b1d36"/>
-          <text x="153" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#818cf8">三维多模态评分</text>
+          <rect x="106" y="0" width="100" height="19" rx="9.5" ry="9.5" fill="#1a1c3b" stroke="#818cf8" stroke-width="0.7" stroke-opacity="0.5"/>
+          <text x="156" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#a5b4fc">三维多模态评分</text>
         </g>
 
-        <text x="20" y="136" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • Antigravity 原生零 API 成本驱动
-        </text>
-        <text x="20" y="154" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • CC 字幕+雪碧图+弹幕三维深度品鉴
-        </text>
-        <text x="20" y="172" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 专栏/直播巡航、多图动态与风控自愈
-        </text>
-        <text x="20" y="190" class="font-sub" font-size="11.5" fill="#e9d5ff">
-          • 通用开源架构，早晚双本手记沉淀
-        </text>
+        <text x="18" y="135" class="font-body" font-size="11" fill="#e2e8f0">• Antigravity 原生零成本驱动</text>
+        <text x="18" y="153" class="font-body" font-size="11" fill="#cbd5e1">• CC 字幕+雪碧图+弹幕深度品鉴</text>
+        <text x="18" y="171" class="font-body" font-size="11" fill="#cbd5e1">• 专栏/直播巡航与 12014 自愈</text>
+        <text x="18" y="189" class="font-sub" font-size="11" fill="#e9d5ff">• 通用开源架构，早晚双本手记</text>
 
-        <g transform="translate(20, 204)">
-          <rect width="202" height="21" rx="6" ry="6" fill="#1b122e" stroke="#a855f7" stroke-width="0.8"/>
-          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#c084fc">🤖 MIT 开源 · 通用架构版</text>
+        <g transform="translate(18, 204)">
+          <rect width="206" height="22" rx="11" ry="11" fill="#1e1233" stroke="#a855f7" stroke-width="0.9"/>
+          <text x="103" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#d8b4fe">🤖 MIT 开源 · 通用架构版</text>
         </g>
       </g>
 
       <!-- Card 3: 天青泥火 v10.0.0 -->
       <g transform="translate(518, 0)">
-        <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#00f2fe" stroke-width="1.5" filter="url(#card-shadow)"/>
-        <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,40 L 0,40 Z" fill="url(#neon-aurora)" opacity="0.9"/>
-        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 华夏古瓷三维研学空间 ✦</text>
+        <rect width="242" height="238" rx="18" ry="18" fill="url(#card-bg)" stroke="#00f2fe" stroke-width="1.5" filter="url(#card-shadow)"/>
+        <rect width="242" height="238" rx="18" ry="18" fill="url(#card-sheen)"/>
+        <path d="M 0,18 Q 0,0 18,0 L 224,0 Q 242,0 242,18 L 242,38 L 0,38 Z" fill="url(#neon-aurora)" opacity="0.94"/>
+        <line x1="20" y1="1.2" x2="222" y2="1.2" stroke="url(#glass-top-edge)" stroke-width="1.2"/>
+        <text x="121" y="24" text-anchor="middle" class="font-title font-mono" font-size="11.5" font-weight="700" fill="#ffffff" letter-spacing="0.4">✦ 华夏古瓷三维研学空间 ✦</text>
         
-        <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🏺 天青泥火</text>
-        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#38bdf8">XERJ 全球语料库官方收录</text>
+        <text x="18" y="66" class="font-title" font-size="15.5" fill="#ffffff">🏺 天青泥火</text>
+        <text x="18" y="85" class="font-sub font-mono" font-size="10.5" fill="#38bdf8">XERJ 全球语料库官方收录</text>
         
-        <g transform="translate(20, 100)">
-          <rect width="98" height="18" rx="9" ry="9" fill="#0c2738"/>
-          <text x="49" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">真 3D 青花工坊</text>
+        <g transform="translate(18, 97)">
+          <rect width="100" height="19" rx="9.5" ry="9.5" fill="#0b283a" stroke="#00f2fe" stroke-width="0.7" stroke-opacity="0.5"/>
+          <text x="50" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#22d3ee">真 3D 青花工坊</text>
           
-          <rect x="104" y="0" width="98" height="18" rx="9" ry="9" fill="#152438"/>
-          <text x="153" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#60a5fa">古琴 · 100x 显微</text>
+          <rect x="106" y="0" width="100" height="19" rx="9.5" ry="9.5" fill="#13233b" stroke="#60a5fa" stroke-width="0.7" stroke-opacity="0.5"/>
+          <text x="156" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#93c5fd">古琴 · 100x 显微</text>
         </g>
 
-        <text x="20" y="136" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 15 件 PBR 古瓷孪生与双器同台对比
-        </text>
-        <text x="20" y="154" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 3D 互动拉坯、手绘青花点印与窑变
-        </text>
-        <text x="20" y="172" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 智能古琴伴赏、B站非遗与 MiMo 语音
-        </text>
-        <text x="20" y="190" class="font-sub" font-size="11.5" fill="#bae6fd">
-          • 移动端 TBDR 极速出图与 PWA 离线
-        </text>
+        <text x="18" y="135" class="font-body" font-size="11" fill="#e2e8f0">• 15 件 PBR 古瓷双器同台对比</text>
+        <text x="18" y="153" class="font-body" font-size="11" fill="#cbd5e1">• 3D 互动拉坯、青花点印与窑变</text>
+        <text x="18" y="171" class="font-body" font-size="11" fill="#cbd5e1">• 智能古琴伴赏与 B站非遗展映</text>
+        <text x="18" y="189" class="font-sub" font-size="11" fill="#bae6fd">• 移动端 TBDR 极速出图 + PWA</text>
 
-        <g transform="translate(20, 204)">
-          <rect width="202" height="21" rx="6" ry="6" fill="#1b122e" stroke="#00f2fe" stroke-width="0.8"/>
-          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#38bdf8">⭐ 8 Stars · v10.0.0 正式版</text>
+        <g transform="translate(18, 204)">
+          <rect width="206" height="22" rx="11" ry="11" fill="#0d2236" stroke="#00f2fe" stroke-width="0.9"/>
+          <text x="103" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#7dd3fc">⭐ 8 Stars · v10.0.0 正式版</text>
         </g>
       </g>
     </g>
@@ -532,50 +571,56 @@
       <line x1="0" y1="26" x2="220" y2="26" stroke="url(#neon-gold)" stroke-width="2.8"/>
     </g>
 
-    <!-- 3 Medals Cards with Scholarly Descriptions -->
+    <!-- 3 Medals Cards with Metallic Borders & Glass Sheen -->
     <g transform="translate(0, 42)">
       <!-- Medal 1: 蓝桥杯 -->
       <g transform="translate(0, 0)">
-        <rect width="242" height="112" rx="14" ry="14" fill="url(#card-bg)" stroke="#cbd5e1" stroke-width="1.3" filter="url(#card-shadow)"/>
+        <rect width="242" height="112" rx="16" ry="16" fill="url(#card-bg)" stroke="url(#medal-silver)" stroke-width="1.4" filter="url(#card-shadow)"/>
+        <rect width="242" height="112" rx="16" ry="16" fill="url(#card-sheen)"/>
+        <line x1="20" y1="1.2" x2="222" y2="1.2" stroke="url(#glass-top-edge)" stroke-width="1"/>
         <g transform="translate(18, 19)">
-          <circle cx="18" cy="18" r="18" fill="#2d3748" stroke="#cbd5e1" stroke-width="2"/>
+          <circle cx="18" cy="18" r="19" fill="#1e293b" stroke="url(#medal-silver)" stroke-width="2"/>
           <text x="18" y="24" text-anchor="middle" font-size="17">🥈</text>
         </g>
         <g transform="translate(64, 21)">
-          <text x="0" y="15" class="font-title" font-size="14" fill="#f1f5f9">蓝桥杯全国软件大赛</text>
+          <text x="0" y="15" class="font-title" font-size="14" fill="#f8fafc">蓝桥杯全国软件大赛</text>
           <text x="0" y="34" class="font-sub font-mono" font-size="11.5" fill="#cbd5e1">C++ 软件类 · 省级二等奖</text>
-          <rect x="0" y="44" width="155" height="19" rx="4" ry="4" fill="#1e293b"/>
-          <text x="77" y="57" text-anchor="middle" class="font-mono" font-size="10" fill="#94a3b8">2026 第十七届全国算法试炼</text>
+          <rect x="0" y="45" width="158" height="19" rx="9.5" ry="9.5" fill="#1e293b" stroke="#64748b" stroke-width="0.6"/>
+          <text x="79" y="58" text-anchor="middle" class="font-mono" font-size="10" fill="#cbd5e1">2026 第十七届全国算法试炼</text>
         </g>
       </g>
 
       <!-- Medal 2: 计算机设计大赛 -->
       <g transform="translate(259, 0)">
-        <rect width="242" height="112" rx="14" ry="14" fill="url(#card-bg)" stroke="#fb923c" stroke-width="1.3" filter="url(#card-shadow)"/>
+        <rect width="242" height="112" rx="16" ry="16" fill="url(#card-bg)" stroke="url(#medal-bronze)" stroke-width="1.4" filter="url(#card-shadow)"/>
+        <rect width="242" height="112" rx="16" ry="16" fill="url(#card-sheen)"/>
+        <line x1="20" y1="1.2" x2="222" y2="1.2" stroke="url(#glass-top-edge)" stroke-width="1"/>
         <g transform="translate(18, 19)">
-          <circle cx="18" cy="18" r="18" fill="#3a2216" stroke="#fb923c" stroke-width="2"/>
+          <circle cx="18" cy="18" r="19" fill="#3a2216" stroke="url(#medal-bronze)" stroke-width="2"/>
           <text x="18" y="24" text-anchor="middle" font-size="17">🥉</text>
         </g>
         <g transform="translate(64, 21)">
-          <text x="0" y="15" class="font-title" font-size="14" fill="#ffedd5">中国大学生计算机设计大赛</text>
+          <text x="0" y="15" class="font-title" font-size="13.5" fill="#ffedd5">中国大学生计算机设计大赛</text>
           <text x="0" y="34" class="font-sub font-mono" font-size="11.5" fill="#fdba74">数媒动漫赛道 · 省三 / 校二</text>
-          <rect x="0" y="44" width="155" height="19" rx="4" ry="4" fill="#321b12"/>
-          <text x="77" y="57" text-anchor="middle" class="font-mono" font-size="10" fill="#fed7aa">2026 团队数字媒体交互融合</text>
+          <rect x="0" y="45" width="158" height="19" rx="9.5" ry="9.5" fill="#321b12" stroke="#fb923c" stroke-width="0.6"/>
+          <text x="79" y="58" text-anchor="middle" class="font-mono" font-size="10" fill="#fed7aa">2026 团队数字媒体交互融合</text>
         </g>
       </g>
 
       <!-- Medal 3: 机器人与AI大赛 -->
       <g transform="translate(518, 0)">
-        <rect width="242" height="112" rx="14" ry="14" fill="url(#card-bg)" stroke="#fbbf24" stroke-width="1.3" filter="url(#card-shadow)"/>
+        <rect width="242" height="112" rx="16" ry="16" fill="url(#card-bg)" stroke="url(#medal-gold)" stroke-width="1.4" filter="url(#card-shadow)"/>
+        <rect width="242" height="112" rx="16" ry="16" fill="url(#card-sheen)"/>
+        <line x1="20" y1="1.2" x2="222" y2="1.2" stroke="url(#glass-top-edge)" stroke-width="1"/>
         <g transform="translate(18, 19)">
-          <circle cx="18" cy="18" r="18" fill="#382a10" stroke="#fbbf24" stroke-width="2"/>
+          <circle cx="18" cy="18" r="19" fill="#382a10" stroke="url(#medal-gold)" stroke-width="2"/>
           <text x="18" y="24" text-anchor="middle" font-size="17">🏅</text>
         </g>
         <g transform="translate(64, 21)">
           <text x="0" y="15" class="font-title" font-size="14" fill="#fef3c7">中国机器人及 AI 大赛</text>
           <text x="0" y="34" class="font-sub font-mono" font-size="11.5" fill="#fde047">创新赛道 · 省赛优秀奖</text>
-          <rect x="0" y="44" width="155" height="19" rx="4" ry="4" fill="#2d2109"/>
-          <text x="77" y="57" text-anchor="middle" class="font-mono" font-size="10" fill="#fef08a">2026 前沿智能竞技初试啼声</text>
+          <rect x="0" y="45" width="158" height="19" rx="9.5" ry="9.5" fill="#2d2109" stroke="#fbbf24" stroke-width="0.6"/>
+          <text x="79" y="58" text-anchor="middle" class="font-mono" font-size="10" fill="#fef08a">2026 前沿智能竞技初试啼声</text>
         </g>
       </g>
     </g>
