@@ -45,37 +45,53 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <b>🐾 <a href="https://github.com/SherlockYzz/cyber-hajimi-bili">Cyber-Gemini Twins (赛博双子星)</a></b><br>
-      <sub>B站全能多模态 AI 伴生代理 · WBI 动态签名 · 直播/专栏/动态全域巡航</sub><br><br>
+      <b>🦊 <a href="https://github.com/SherlockYzz/anime-desktop-pet">AI 二次元桌宠 (Anime Desktop Pet v8.1.0)</a></b><br>
+      <sub>九大零 OOC 角色 · Live2D + 3D VRM + 精灵表三引擎 · 10款街机(含霓虹贪吃蛇) · 133段 CV</sub><br><br>
+      <a href="https://github.com/SherlockYzz/anime-desktop-pet/releases/tag/v8.1.0"><img src="https://img.shields.io/badge/Release-v8.1.0%20CN%2FEN-ff758c?style=flat-square" alt="Release"></a>
+      <a href="https://github.com/SherlockYzz/anime-desktop-pet"><img src="https://img.shields.io/badge/Electron-28.x-blue?style=flat-square" alt="Electron"></a>
+      <a href="https://github.com/SherlockYzz/anime-desktop-pet"><img src="https://img.shields.io/badge/Engines-Live2D%20%2B%20VRM-ff69b4?style=flat-square" alt="Engines"></a>
+      <a href="https://github.com/SherlockYzz/anime-desktop-pet"><img src="https://img.shields.io/badge/Star-⭐%2010-ffd700?style=flat-square" alt="Stars"></a>
+    </td>
+    <td width="50%" align="center">
+      <b>🏺 <a href="https://github.com/SherlockYzz/Memories-of-Chinese-Porcelain-Web">天青泥火 (Tianqing Nihuo v10.0.0)</a></b><br>
+      <sub>真 3D 拉坯青花工坊 · 古琴伴赏与 B站非遗展映 · 全端极速出图 · XERJ 官方收录</sub><br><br>
+      <a href="https://hub.xerj.org/contributors/SherlockYzz"><img src="https://img.shields.io/badge/XERJ-Selected%20Reference-6366F1?style=flat-square" alt="XERJ"></a>
+      <a href="https://sherlockyzz.github.io/Memories-of-Chinese-Porcelain-Web/"><img src="https://img.shields.io/badge/Demo-3D%20%E5%9C%A8%E7%BA%BF%E5%B1%95%E9%A6%86%20%F0%9F%8F%BA-00f2fe?style=flat-square" alt="Demo"></a>
+      <a href="https://github.com/SherlockYzz/Memories-of-Chinese-Porcelain-Web/releases/latest"><img src="https://img.shields.io/badge/Release-v10.0.0-emerald?style=flat-square" alt="Version"></a>
+      <a href="https://github.com/SherlockYzz/Memories-of-Chinese-Porcelain-Web"><img src="https://img.shields.io/badge/Star-⭐%208-ffd700?style=flat-square" alt="Stars"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>🐾 <a href="https://github.com/SherlockYzz/cyber-hajimi-bili">Cyber-Hajimi (赛博养Gemini 伴生代理)</a></b><br>
+      <sub>通用开源架构 · WBI 动态签名 · 三维多模态评分 · 多图动态与 12014 风控自愈</sub><br><br>
       <a href="https://github.com/SherlockYzz/cyber-hajimi-bili"><img src="https://img.shields.io/badge/Host-Google%20Antigravity-blueviolet?style=flat-square" alt="Antigravity"></a>
       <a href="https://github.com/SherlockYzz/cyber-hajimi-bili"><img src="https://img.shields.io/badge/Python-3.10+-brightgreen?style=flat-square" alt="Python"></a>
       <a href="https://github.com/SherlockYzz/cyber-hajimi-bili"><img src="https://img.shields.io/badge/Anti--Crawl-Dynamic%20WBI-00A1D6?style=flat-square" alt="WBI"></a>
       <a href="https://github.com/SherlockYzz/cyber-hajimi-bili"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a>
     </td>
     <td width="50%" align="center">
-      <b>🏺 <a href="https://github.com/SherlockYzz/Memories-of-Chinese-Porcelain-Web">天青泥火 (Sky-Cyan & Kiln Fire v7.0)</a></b><br>
-      <sub>3D WebGL 沉浸空间 · 双器同台对比 · 100x 显微景深 · XERJ 官方收录</sub><br><br>
-      <a href="https://hub.xerj.org/contributors/SherlockYzz"><img src="https://img.shields.io/badge/XERJ-Selected%20Reference-6366F1?style=flat-square" alt="XERJ"></a>
-      <a href="https://sherlockyzz.github.io/Memories-of-Chinese-Porcelain-Web/"><img src="https://img.shields.io/badge/Demo-3D%20%E5%9C%A8%E7%BA%BF%E5%B1%95%E9%A6%86%20%F0%9F%8F%BA-00f2fe?style=flat-square" alt="Demo"></a>
-      <a href="https://github.com/SherlockYzz/Memories-of-Chinese-Porcelain-Web"><img src="https://img.shields.io/badge/Version-v7.0%20Release-emerald?style=flat-square" alt="Version"></a>
-      <a href="https://github.com/SherlockYzz/Memories-of-Chinese-Porcelain-Web"><img src="https://img.shields.io/badge/Star-⭐%206-ffd700?style=flat-square" alt="Stars"></a>
+      <b>🌻 <a href="https://github.com/SherlockYzz/PVZ-Gemini-4-Argon">Plants vs. Zombies (Clean Architecture 增强版)</a></b><br>
+      <sub>6 大章节 51 关与无尽生存 · 52 种植物 · 25 种全 AI 僵尸 · 59 项自动化单测</sub><br><br>
+      <a href="https://github.com/SherlockYzz/PVZ-Gemini-4-Argon"><img src="https://img.shields.io/badge/Python-Pygame-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+      <a href="https://github.com/SherlockYzz/PVZ-Gemini-4-Argon"><img src="https://img.shields.io/badge/Arch-Clean%20Architecture-10b981?style=flat-square" alt="Arch"></a>
+      <a href="https://github.com/SherlockYzz/PVZ-Gemini-4-Argon"><img src="https://img.shields.io/badge/Content-52%20Plants%20%7C%2051%20Levels-f59e0b?style=flat-square" alt="Content"></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
-      <b>🦊 <a href="https://github.com/SherlockYzz/anime-desktop-pet">AI 二次元桌宠 (Desktop Pet v08.00)</a></b><br>
-      <sub>九大角色全阵容 · 像素级透明穿透 · 10款 H5 微游戏套件 · 133段广播 CV</sub><br><br>
-      <a href="https://github.com/SherlockYzz/anime-desktop-pet/releases/tag/v08.00"><img src="https://img.shields.io/badge/Release-v08.00%20%E5%8F%8C%E7%89%88%E6%9C%AC-ff758c?style=flat-square" alt="Release"></a>
-      <a href="https://github.com/SherlockYzz/anime-desktop-pet"><img src="https://img.shields.io/badge/Electron-28.x-blue?style=flat-square" alt="Electron"></a>
-      <a href="https://github.com/SherlockYzz/anime-desktop-pet"><img src="https://img.shields.io/badge/Live2D-Cubism%202%2F4%2F5-ff69b4?style=flat-square" alt="Live2D"></a>
-      <a href="https://github.com/SherlockYzz/anime-desktop-pet"><img src="https://img.shields.io/badge/Star-⭐%209-ffd700?style=flat-square" alt="Stars"></a>
-    </td>
     <td width="50%" align="center">
       <b>🏮 <a href="https://github.com/SherlockYzz/mid-autumn-celebration">华夏岁时盛典 (Festival Suite)</a></b><br>
       <sub>东方像素风 · C++17 控制台超分渲染 · HTML5 动力学粒子群交互</sub><br><br>
       <a href="https://sherlockyzz.github.io/mid-autumn-celebration/"><img src="https://img.shields.io/badge/Demo-%E5%9C%A8%E7%BA%BF%E6%B8%B8%E5%9B%AD%20%F0%9F%8C%90-a855f7?style=flat-square" alt="Demo"></a>
       <a href="https://github.com/SherlockYzz/mid-autumn-celebration"><img src="https://img.shields.io/badge/Stack-C%2B%2B17%20%2F%20WebGL-blue?style=flat-square" alt="Stack"></a>
       <a href="https://github.com/SherlockYzz/mid-autumn-celebration"><img src="https://img.shields.io/badge/Star-⭐%201-ffd700?style=flat-square" alt="Stars"></a>
+    </td>
+    <td width="50%" align="center">
+      <b>🌌 <a href="https://sherlockyzz.github.io/">SherlockYzz.github.io (交互式 3D 个人主页)</a></b><br>
+      <sub>WebGL2 超维宇宙与莫比乌斯流形 · 活体精灵桌宠 · 10款 H5 街机实验室 · BGM 音乐盒</sub><br><br>
+      <a href="https://sherlockyzz.github.io/"><img src="https://img.shields.io/badge/Live-Online%20Site%20%E2%9C%A8-00f2fe?style=flat-square" alt="Live"></a>
+      <a href="https://github.com/SherlockYzz/SherlockYzz.github.io"><img src="https://img.shields.io/badge/Stack-WebGL2%20%2F%20Canvas-8b5cf6?style=flat-square" alt="Stack"></a>
+      <a href="https://github.com/SherlockYzz/SherlockYzz.github.io"><img src="https://img.shields.io/badge/Arcade-10%20H5%20Games-ec4899?style=flat-square" alt="Arcade"></a>
     </td>
   </tr>
 </table>
