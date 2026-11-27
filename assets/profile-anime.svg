@@ -411,111 +411,111 @@
 
     <!-- 3 Project Cards Grid (Cultured & Technically Sophisticated) -->
     <g transform="translate(0, 42)">
-      <!-- Card 1: AI 二次元桌宠 -->
+      <!-- Card 1: AI 二次元桌宠 v8.1.0 -->
       <g transform="translate(0, 0)">
         <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#ff3366" stroke-width="1.6" filter="url(#card-shadow)"/>
         <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,40 L 0,40 Z" fill="url(#neon-sakura)" opacity="0.95"/>
-        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 智能交互工程标杆 ✦</text>
+        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 三引擎桌面交互标杆 ✦</text>
         
         <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🦊 AI 二次元桌宠</text>
-        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#f472b6">九大角色 · 考据十阶羁绊</text>
+        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#f472b6">九大零 OOC 角色 · 十阶羁绊</text>
         
         <g transform="translate(20, 100)">
-          <rect width="88" height="18" rx="9" ry="9" fill="#38152c"/>
-          <text x="44" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#ff7eb3">公式书深度考据</text>
+          <rect width="98" height="18" rx="9" ry="9" fill="#38152c"/>
+          <text x="49" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#ff7eb3">Live2D + 3D VRM</text>
           
-          <rect x="94" y="0" width="108" height="18" rx="9" ry="9" fill="#122b3d"/>
-          <text x="148" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">133 段广播级 CV</text>
+          <rect x="104" y="0" width="98" height="18" rx="9" ry="9" fill="#122b3d"/>
+          <text x="153" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">133 段原生 CV</text>
         </g>
 
         <text x="20" y="136" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 严谨考据原作设定，恪守原生称谓隔离
+          • Live2D/VRM/精灵表三引擎像素穿透
         </text>
         <text x="20" y="154" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 轻量化羁绊胶囊注入，直觉秒回流式响应
+          • 12 大模型流式对话与 17 语言沙箱
         </text>
         <text x="20" y="172" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 集成番茄钟与系统监控，兼具性能与实用
+          • 10 款摸鱼街机(含霓虹贪吃蛇)+BGM
         </text>
         <text x="20" y="190" class="font-sub" font-size="11.5" fill="#fbcfe8">
-          • 独立构建英文向导，实现中英双轨发布
+          • Electron 28 构建，中英双轨安装包
         </text>
 
         <g transform="translate(20, 204)">
           <rect width="202" height="21" rx="6" ry="6" fill="#1b122e" stroke="#ff3366" stroke-width="0.8"/>
-          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#fbbf24">⭐ 9 Stars · v07.21 稳定典藏版</text>
+          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#fbbf24">⭐ 10 Stars · v8.1.0 正式版</text>
         </g>
       </g>
 
-      <!-- Card 2: 华夏岁时盛典 -->
+      <!-- Card 2: Cyber-Hajimi 赛博养Gemini -->
       <g transform="translate(259, 0)">
         <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#a855f7" stroke-width="1.5" filter="url(#card-shadow)"/>
         <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,40 L 0,40 Z" fill="url(#neon-violet)" opacity="0.9"/>
-        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 东方像素与传统岁时 ✦</text>
+        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 多模态开源伴生代理 ✦</text>
         
-        <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🏮 华夏岁时盛典</text>
-        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#c084fc">字符光栅绘就四季节序</text>
+        <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🐾 赛博养Gemini</text>
+        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#c084fc">Cyber-Hajimi · 零成本驱动</text>
         
         <g transform="translate(20, 100)">
-          <rect width="96" height="18" rx="9" ry="9" fill="#2d1338"/>
-          <text x="48" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#e879f9">C++17 字符超分</text>
+          <rect width="98" height="18" rx="9" ry="9" fill="#2d1338"/>
+          <text x="49" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#e879f9">动态 WBI 防爬</text>
           
-          <rect x="102" y="0" width="100" height="18" rx="9" ry="9" fill="#1b1d36"/>
-          <text x="152" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#818cf8">HTML5 粒子系统</text>
+          <rect x="104" y="0" width="98" height="18" rx="9" ry="9" fill="#1b1d36"/>
+          <text x="153" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#818cf8">三维多模态评分</text>
         </g>
 
         <text x="20" y="136" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 控制台环境下半块像素超分图形算法
+          • Antigravity 原生零 API 成本驱动
         </text>
         <text x="20" y="154" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 双引擎联动：原生字符画与 Web 粒子
+          • CC 字幕+雪碧图+弹幕三维深度品鉴
         </text>
         <text x="20" y="172" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 涵盖中秋、国庆、除夕、上元传统雅集
+          • 专栏/直播巡航、多图动态与风控自愈
         </text>
         <text x="20" y="190" class="font-sub" font-size="11.5" fill="#e9d5ff">
-          • 传统文化意象在现代计算美学中的新生
+          • 通用开源架构，早晚双本手记沉淀
         </text>
 
         <g transform="translate(20, 204)">
           <rect width="202" height="21" rx="6" ry="6" fill="#1b122e" stroke="#a855f7" stroke-width="0.8"/>
-          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#c084fc">🌐 在线游园 · GitHub Pages 直达</text>
+          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#c084fc">🤖 MIT 开源 · 通用架构版</text>
         </g>
       </g>
 
-      <!-- Card 3: 慧眼识瓷 3D 展馆 -->
+      <!-- Card 3: 天青泥火 v10.0.0 -->
       <g transform="translate(518, 0)">
         <rect width="242" height="235" rx="16" ry="16" fill="url(#card-bg)" stroke="#00f2fe" stroke-width="1.5" filter="url(#card-shadow)"/>
         <path d="M 0,16 Q 0,0 16,0 L 226,0 Q 242,0 242,16 L 242,40 L 0,40 Z" fill="url(#neon-aurora)" opacity="0.9"/>
-        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 宋代官瓷三维交互 ✦</text>
+        <text x="121" y="26" text-anchor="middle" class="font-title font-mono" font-size="12" font-weight="700" fill="#ffffff">✦ 华夏古瓷三维研学空间 ✦</text>
         
-        <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🏺 慧眼识瓷 3D 展馆</text>
-        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#38bdf8">WebGL 沉浸式非遗体验</text>
+        <text x="20" y="68" class="font-title" font-size="16" fill="#ffffff">🏺 天青泥火</text>
+        <text x="20" y="88" class="font-sub font-mono" font-size="11" fill="#38bdf8">XERJ 全球语料库官方收录</text>
         
         <g transform="translate(20, 100)">
-          <rect width="96" height="18" rx="9" ry="9" fill="#0c2738"/>
-          <text x="48" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">Three.js 交互审视</text>
+          <rect width="98" height="18" rx="9" ry="9" fill="#0c2738"/>
+          <text x="49" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#00f2fe">真 3D 青花工坊</text>
           
-          <rect x="102" y="0" width="100" height="18" rx="9" ry="9" fill="#152438"/>
-          <text x="152" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#60a5fa">宋瓷数字化传承</text>
+          <rect x="104" y="0" width="98" height="18" rx="9" ry="9" fill="#152438"/>
+          <text x="153" y="13" text-anchor="middle" class="font-sub font-mono" font-size="9" fill="#60a5fa">古琴 · 100x 显微</text>
         </g>
 
         <text x="20" y="136" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 运用 WebGL 技术搭建 360° 器物赏析空间
+          • 15 件 PBR 古瓷孪生与双器同台对比
         </text>
         <text x="20" y="154" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • AI 识瓷算法赋能，结合动态水墨工艺长卷
+          • 3D 互动拉坯、手绘青花点印与窑变
         </text>
         <text x="20" y="172" class="font-body" font-size="11.5" fill="#cbd5e1">
-          • 团队同心共研，探索开封千年官瓷数字化
+          • 智能古琴伴赏、B站非遗与 MiMo 语音
         </text>
         <text x="20" y="190" class="font-sub" font-size="11.5" fill="#bae6fd">
-          • 以三维工程呈现宋代含蓄天青雅韵
+          • 移动端 TBDR 极速出图与 PWA 离线
         </text>
 
         <g transform="translate(20, 204)">
           <rect width="202" height="21" rx="6" ry="6" fill="#1b122e" stroke="#00f2fe" stroke-width="0.8"/>
-          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#38bdf8">⭐ 6 Stars · 团队心血之作</text>
+          <text x="101" y="15" text-anchor="middle" class="font-sub font-mono" font-size="10.5" fill="#38bdf8">⭐ 8 Stars · v10.0.0 正式版</text>
         </g>
       </g>
     </g>
