@@ -13,6 +13,7 @@
   <a href="https://hub.xerj.org/contributors/SherlockYzz"><img src="https://img.shields.io/badge/XERJ_Corpus_Hub-Selected_Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="XERJ Contributor"></a>
   <a href="https://sherlockyzz.github.io/"><img src="https://img.shields.io/badge/Online%20Portfolio-3D%20Interactive%20Site-00f2fe?style=flat-square&logo=safari&logoColor=white" alt="Portfolio"></a>
   <a href="https://space.bilibili.com/1497345954"><img src="https://img.shields.io/badge/Bilibili-UID%3A%201497345954-ff758c?style=flat-square&logo=bilibili&logoColor=white" alt="Bilibili"></a>
+  <a href="https://bangumi.tv/user/sherlockyzz"><img src="https://img.shields.io/badge/Bangumi-sherlockyzz-f09199?style=flat-square" alt="Bangumi"></a>
   <a href="tencent://message/?uin=38524908"><img src="https://img.shields.io/badge/QQ-38524908-12b7f5?style=flat-square&logo=tencent-qq&logoColor=white" alt="QQ"></a>
   <img src="https://img.shields.io/badge/Role-%E5%8D%9A%E4%B8%BB%20%C2%B7%20UP%20%E4%B8%BB%20%C2%B7%20%E5%AD%A6%E7%94%9F-a855f7?style=flat-square" alt="Role">
 </p>
